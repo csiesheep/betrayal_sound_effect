@@ -1,4 +1,4 @@
-const PREFIX = "/games/betrayal_sound_effect";
+const PREFIX = "/betrayal_sound_effect";
 
 export default {
   async fetch(request, env) {
