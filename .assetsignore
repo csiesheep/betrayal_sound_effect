@@ -2,3 +2,4 @@
 .github
 .wrangler
 node_modules
+src
