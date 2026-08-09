@@ -8,6 +8,7 @@
     'Flashlight': 'i-flashlight',
     'Chainsaw': 'i-chainsaw',
     'Zombie': 'i-skull',
+    'Ghost': 'i-ghost',
   };
 
   const CAT_ICONS = {
