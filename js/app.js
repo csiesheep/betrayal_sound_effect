@@ -22,6 +22,7 @@
     'Lucky Coin': 'i-lucky-coin',
     'Magic Camera': 'i-magic-camera',
     'Map': 'i-map',
+    'Mirror': 'i-mirror',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
