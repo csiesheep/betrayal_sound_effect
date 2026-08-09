@@ -19,6 +19,7 @@
     'First Aid Kit': 'i-first-aid-kit',
     'Headphones': 'i-headphones',
     'Leather Jacket': 'i-leather-jacket',
+    'Lucky Coin': 'i-lucky-coin',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
