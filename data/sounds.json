@@ -24,5 +24,18 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/technology-chainsaw-start-218438/",
     "date_downloaded": "2026-08-08"
+  },
+  {
+    "id": "monster-zombie-sound",
+    "title": "Zombie Sound",
+    "category": "monster",
+    "tag": "Zombie",
+    "file": "assets/audio/sfx/monsters/zombie_sound.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/horror-zombie-sound-357975/",
+    "date_downloaded": "2026-08-08"
   }
 ]
