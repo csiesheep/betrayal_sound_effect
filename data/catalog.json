@@ -64,7 +64,21 @@
       "id": "event",
       "name": "Events",
       "icon": "i-cat-event",
-      "entries": ["Flickering Lights", "Funeral", "Wandering Ghost"]
+      "entries": [
+        "A Bite!", "A Cry for Help", "A Full Table", "A Moment of Hope",
+        "A Secret Passage", "A Splash of Crimson", "A Vial of Dust",
+        "An Eerie Feeling", "Bat Out of Hell", "Behind You!", "Brain Food",
+        "Burning Figure", "Cassette Player", "Clown Room", "Creaking Door",
+        "Dark and Stormy Night", "Eerie Mirror", "Flickering Lights",
+        "Forbidden Knowledge", "Funeral", "Hanged Men",
+        "Impossible Architecture", "Jonah's Turn", "Lab of Organs",
+        "Meat Moss", "Mysterious Fluid", "Phone Call", "Poor Yorick",
+        "Radio Broadcast", "Say Cheese", "Secret Elevator", "Severed Hand",
+        "Spiders!", "Taxidermy", "Technical Difficulties",
+        "The Deepest Closet", "The Flowering", "The House Is Hungry",
+        "The Oldest House", "The Stars at Night", "Tiny Ghost",
+        "Wandering Ghost"
+      ]
     }
   ]
 }
