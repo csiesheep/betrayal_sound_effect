@@ -13,6 +13,7 @@
     'Dynamite': 'i-dynamite',
     'Gun': 'i-gun',
     'Machete': 'i-machete',
+    "Angel's Feather": 'i-angels-feather',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
