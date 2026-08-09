@@ -141,5 +141,18 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/people-evil-doll-voice-creepy-laugh-477944/",
     "date_downloaded": "2026-08-09"
+  },
+  {
+    "id": "item-first-aid-kit",
+    "title": "Holy Healing Spell",
+    "category": "item",
+    "tag": "First Aid Kit",
+    "file": "assets/audio/sfx/items/first_aid_kit.mp3",
+    "source": "Pixabay",
+    "artist": "Coghezzi",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-holy-healing-spell-533279/",
+    "date_downloaded": "2026-08-09"
   }
 ]
