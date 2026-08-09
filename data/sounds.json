@@ -76,5 +76,18 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/film-special-effects-explosive-double-blast-dynamite-283839/",
     "date_downloaded": "2026-08-09"
+  },
+  {
+    "id": "weapon-gun",
+    "title": "Meaty Gunshot",
+    "category": "weapon",
+    "tag": "Gun",
+    "file": "assets/audio/sfx/weapons/gun.mp3",
+    "source": "Pixabay",
+    "artist": "morganpurkis (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-meaty-gunshot-101257/",
+    "date_downloaded": "2026-08-09"
   }
 ]
