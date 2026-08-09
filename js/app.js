@@ -11,6 +11,7 @@
     'Ghost': 'i-ghost',
     'Crossbow': 'i-crossbow',
     'Dynamite': 'i-dynamite',
+    'Gun': 'i-gun',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
