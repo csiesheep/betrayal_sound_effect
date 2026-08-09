@@ -128,5 +128,18 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/film-special-effects-ring-drop-263966/",
     "date_downloaded": "2026-08-09"
+  },
+  {
+    "id": "item-creepy-doll",
+    "title": "Evil Doll Voice - Creepy Laugh",
+    "category": "item",
+    "tag": "Creepy Doll",
+    "file": "assets/audio/sfx/items/creepy_doll.mp3",
+    "source": "Pixabay",
+    "artist": "PhatPhrogStudio",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/people-evil-doll-voice-creepy-laugh-477944/",
+    "date_downloaded": "2026-08-09"
   }
 ]
