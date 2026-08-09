@@ -1,0 +1,28 @@
+{
+  "categories": [
+    {
+      "id": "item",
+      "name": "Items",
+      "icon": "cat-generic",
+      "entries": ["Flashlight", "Skeleton Key", "Mirror", "First Aid Kit", "Magic Camera", "Rabbit's Foot"]
+    },
+    {
+      "id": "weapon",
+      "name": "Weapons",
+      "icon": "cat-weapon",
+      "entries": ["Chainsaw", "Machete", "Gun", "Crossbow", "Dynamite"]
+    },
+    {
+      "id": "monster",
+      "name": "Monsters",
+      "icon": "cat-monster",
+      "entries": ["Zombie", "Ghost", "Werewolf", "Vampire", "Giant Wasp"]
+    },
+    {
+      "id": "room",
+      "name": "Rooms",
+      "icon": "cat-room",
+      "entries": ["Entrance Hall", "Chapel", "Tower", "Basement Landing", "Ritual Room"]
+    }
+  ]
+}
