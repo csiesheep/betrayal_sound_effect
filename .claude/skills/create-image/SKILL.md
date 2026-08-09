@@ -131,12 +131,45 @@ at a blank canvas:
    #   runtimeArgs: ["-c", "cd /mnt/c/Users/sheep/code/betrayal_sound_effect && npx wrangler dev"]
    #   port: 8787
    ```
-   Once it's running, navigate to the category the entity is in, open
-   it, and use `computer` `zoom`/`screenshot` on the grid — a symbol
-   that's structurally valid can still look wrong (elements out of the
-   0–24 canvas, a fill-void cavity landing outside its parent shape,
-   proportions that don't read at 75% scale). Confirm it before moving
-   on.
+   Once it's running, navigate to the category the entity is in and
+   open it. A symbol that's structurally valid can still look wrong —
+   elements out of the 0–24 canvas, a fill-void cavity landing outside
+   its parent shape, proportions that don't read at 75% scale — so
+   confirm it before moving on, not just that the page didn't error.
+
+   Try `computer` `screenshot`/`zoom` first. If it fails with
+   "the Browser pane is not displayed" (this happens — the pane isn't
+   always actually visible even though `read_page`/`javascript_tool`
+   still work fine against it), don't give up on verifying — fall back
+   to checking the real rendered geometry via JS instead of pixels.
+   `<symbol>` content reports a zero bounding box when queried directly
+   (it isn't rendered outside a `<use>`), so clone it into a temporary
+   visible `<svg>` first:
+   ```js
+   (function () {
+     const sym = document.querySelector('#i-{slug}');
+     const test = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+     test.setAttribute('viewBox', '0 0 24 24');
+     test.innerHTML = sym.innerHTML;
+     document.body.appendChild(test);
+     const results = [...test.children].map(el => {
+       const b = el.getBBox();
+       return { tag: el.tagName, cls: el.getAttribute('class'), bbox: b };
+     });
+     document.body.removeChild(test);
+     return JSON.stringify(results);
+   })();
+   ```
+   This is actually *more* precise than eyeballing a screenshot for the
+   things most likely to be wrong when hand-authoring coordinates
+   blind: check that cavity/detail elements' bounding boxes fall inside
+   the main body shape's bbox (not floating outside it), that nothing
+   sits outside roughly x/y 0–24, and that paired elements meant to be
+   symmetric (like two eyes) actually mirror each other's coordinates.
+   Also click the tile and confirm `is-playing` / the mixer chip appear
+   — a broken icon and a broken click handler are different bugs, both
+   worth catching here rather than assuming the icon is fine because
+   sound already worked in the `find-sound-effect` step.
 7. Commit the icon + `ICONS` map entry together:
    ```bash
    git add index.html js/app.js

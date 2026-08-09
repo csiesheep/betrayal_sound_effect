@@ -105,10 +105,24 @@ not the final save. Don't write anything into `assets/` yet.
 
 Show a table: title, artist, duration, format/size, license, and any
 notable flag (Pixabay marks some files "AI modified or generated" — call
-that out, some users will care, some won't). Then stop and wait for the
-user to pick one, ask for more candidates, or reject the batch and
-broaden the search. **Never skip straight to saving a file** — the whole
-point of shortlisting is that the user picks, not you.
+that out, some users will care, some won't). Then **send the actual
+scratch files from Step 4** to the user (the same ones already verified,
+no need to re-download) so they can listen before picking — a metadata
+table alone isn't enough to judge "does this actually sound right," and
+Pixabay's own in-page preview player isn't reliable to point them at
+(the "Free download" button doesn't do anything script-observable, and
+in practice its audio player has failed to play for the user before).
+The file-sending tool needs Windows-style paths, not the POSIX `/tmp/...`
+ones `curl` was given in Step 4 — convert first:
+
+```bash
+cygpath -w /tmp/candidate.mp3
+```
+
+Then stop and wait for the user to pick one, ask for more candidates, or
+reject the batch and broaden the search. **Never skip straight to saving
+a file** — the whole point of shortlisting is that the user picks, not
+you.
 
 ## Step 6 — Save the chosen file for real
 
