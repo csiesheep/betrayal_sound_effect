@@ -63,5 +63,18 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/film-special-effects-crossbow-firing-95020/",
     "date_downloaded": "2026-08-09"
+  },
+  {
+    "id": "weapon-dynamite",
+    "title": "Explosive Double Blast Dynamite",
+    "category": "weapon",
+    "tag": "Dynamite",
+    "file": "assets/audio/sfx/weapons/dynamite.mp3",
+    "source": "Pixabay",
+    "artist": "kalsstockmedia",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-explosive-double-blast-dynamite-283839/",
+    "date_downloaded": "2026-08-09"
   }
 ]
