@@ -18,6 +18,7 @@
     'Creepy Doll': 'i-creepy-doll',
     'First Aid Kit': 'i-first-aid-kit',
     'Headphones': 'i-headphones',
+    'Leather Jacket': 'i-leather-jacket',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
