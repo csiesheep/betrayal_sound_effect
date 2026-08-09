@@ -1,0 +1,15 @@
+[
+  {
+    "id": "item-flashlight-click",
+    "title": "Flashlight Click",
+    "category": "item",
+    "tag": "Flashlight",
+    "file": "assets/audio/sfx/items/flashlight_click.mp3",
+    "source": "Pixabay",
+    "artist": "CreepyPastry (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-flashlight-click-46073/",
+    "date_downloaded": "2026-08-08"
+  }
+]
