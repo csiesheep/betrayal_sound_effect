@@ -21,6 +21,7 @@
     'Leather Jacket': 'i-leather-jacket',
     'Lucky Coin': 'i-lucky-coin',
     'Magic Camera': 'i-magic-camera',
+    'Map': 'i-map',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
