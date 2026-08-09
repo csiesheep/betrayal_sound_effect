@@ -193,5 +193,18 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/film-special-effects-coin-flip-88793/",
     "date_downloaded": "2026-08-09"
+  },
+  {
+    "id": "item-magic-camera",
+    "title": "CAMERA SHUTTER",
+    "category": "item",
+    "tag": "Magic Camera",
+    "file": "assets/audio/sfx/items/magic_camera.mp3",
+    "source": "Pixabay",
+    "artist": "ALEXIS_GAMING_CAM",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-camera-shutter-346101/",
+    "date_downloaded": "2026-08-09"
   }
 ]
