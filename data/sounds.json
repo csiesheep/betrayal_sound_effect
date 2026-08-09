@@ -11,5 +11,18 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/film-special-effects-flashlight-click-46073/",
     "date_downloaded": "2026-08-08"
+  },
+  {
+    "id": "weapon-chainsaw-start",
+    "title": "Chainsaw Start",
+    "category": "weapon",
+    "tag": "Chainsaw",
+    "file": "assets/audio/sfx/weapons/chainsaw_start.mp3",
+    "source": "Pixabay",
+    "artist": "Bubba4827",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/technology-chainsaw-start-218438/",
+    "date_downloaded": "2026-08-08"
   }
 ]
