@@ -167,5 +167,18 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/film-special-effects-071829-putting-headphones-on-43125/",
     "date_downloaded": "2026-08-09"
+  },
+  {
+    "id": "item-leather-jacket",
+    "title": "Leather Movement",
+    "category": "item",
+    "tag": "Leather Jacket",
+    "file": "assets/audio/sfx/items/leather_jacket.mp3",
+    "source": "Pixabay",
+    "artist": "EminYILDIRIM (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-leather-movement-38737/",
+    "date_downloaded": "2026-08-09"
   }
 ]
