@@ -46,9 +46,17 @@ individual contributor's name says (files "by freesound_community" are
 still under Pixabay's license once hosted there, not Freesound's
 original license).
 
-Pick ~3 promising candidates by title/duration/relevance. Shorter is
-usually more useful for a one-shot SFX; for ambiences/music, look for
-something that's actually described as loopable.
+Pick ~3 promising candidates by title/duration/relevance. **For anything
+landing in `assets/audio/sfx/` (items, weapons, monsters, rooms, heroes,
+stings), only shortlist candidates under 15 seconds** — a soundboard
+one-shot that runs longer than that stops feeling like a button-press
+cue and starts feeling like a music clip. Skip longer results entirely
+rather than including them as an option; if the first page of results
+doesn't turn up 3 candidates under 15s, narrow the search terms (e.g.
+"chainsaw start" instead of "chainsaw") before broadening. Background
+music beds in `assets/audio/music/` are the one exception to this cap —
+those are meant to be 2-5 minute loops, so ignore duration there and
+instead look for something explicitly described as loopable.
 
 If Pixabay genuinely has nothing suitable, fall back to:
 - **Freesound.org**, filtered to **CC0** only (skips per-file attribution
@@ -107,14 +115,27 @@ point of shortlisting is that the user picks, not you.
 Once the user picks:
 
 ```bash
-curl -s -D - -o assets/audio/sfx/<category>/<slug>.mp3 "<cdn-url>" \
+curl -s -D - -o assets/audio/sfx/<category>/<name>.mp3 "<cdn-url>" \
   -H "Referer: <pixabay-page-url>" \
   -H "User-Agent: ..."
 ```
 
-`<slug>` is a short, lowercase, underscore-separated name describing the
-sound, not necessarily the source file's own filename — e.g.
-`chainsaw_revup.mp3`, `zombie_groan.mp3`.
+`<name>` is the in-game entity's own name, normalized to lowercase with
+underscores for spaces — `Chainsaw` → `chainsaw.mp3`, `Zombie` →
+`zombie.mp3`, `Flashlight` → `flashlight.mp3` — **not** a description of
+the specific candidate's source title (a candidate called "Chainsaw
+Start" or "AudioPapkin's Chainsaw" both still just become
+`chainsaw.mp3`). The point is that every file is findable by the
+in-game name alone, regardless of which candidate ended up winning or
+what the source happened to call it.
+
+If an entity genuinely needs more than one distinct sound — the design
+doc calls for this on weapons, e.g. Chainsaw wants a rev-up *and* an
+idle loop *and* a tearing impact — keep the entity name as the base and
+add a short action suffix instead of inventing a new name:
+`chainsaw.mp3` for the primary/default sound, `chainsaw_idle.mp3` /
+`chainsaw_impact.mp3` for the others. Ask the user which slot they're
+filling if it's not obvious from how they phrased the request.
 
 ## Step 7 — Catalog it in data/sounds.json
 
@@ -123,11 +144,11 @@ yet) matching the schema already in use:
 
 ```json
 {
-  "id": "<category>-<slug>",
+  "id": "<category>-<name>",
   "title": "<the sound's title on the source site>",
   "category": "<item|weapon|monster|room|hero|sting|music>",
   "tag": "<the in-game name, e.g. Flashlight>",
-  "file": "assets/audio/sfx/<category>/<slug>.mp3",
+  "file": "assets/audio/sfx/<category>/<name>.mp3",
   "source": "Pixabay",
   "artist": "<artist name as shown, including the (freesound_community) suffix if present>",
   "license": "Pixabay Content License",
@@ -146,7 +167,7 @@ one yet).
 ## Step 8 — Commit
 
 ```bash
-git add assets/audio/sfx/<category>/<slug>.mp3 data/sounds.json
+git add assets/audio/sfx/<category>/<name>.mp3 data/sounds.json
 git commit -m "Add sound effect: <title> for <tag>"
 ```
 
