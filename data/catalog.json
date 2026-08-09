@@ -4,25 +4,25 @@
       "id": "item",
       "name": "Items",
       "icon": "cat-generic",
-      "entries": ["Flashlight", "Skeleton Key", "Mirror", "First Aid Kit", "Magic Camera", "Rabbit's Foot"]
+      "entries": ["First Aid Kit", "Flashlight", "Magic Camera", "Mirror", "Rabbit's Foot", "Skeleton Key"]
     },
     {
       "id": "weapon",
       "name": "Weapons",
       "icon": "cat-weapon",
-      "entries": ["Chainsaw", "Machete", "Gun", "Crossbow", "Dynamite"]
+      "entries": ["Chainsaw", "Crossbow", "Dynamite", "Gun", "Machete"]
     },
     {
       "id": "monster",
       "name": "Monsters",
       "icon": "cat-monster",
-      "entries": ["Zombie", "Ghost", "Werewolf", "Vampire", "Giant Wasp"]
+      "entries": ["Ghost", "Giant Wasp", "Vampire", "Werewolf", "Zombie"]
     },
     {
       "id": "room",
       "name": "Rooms",
       "icon": "cat-room",
-      "entries": ["Entrance Hall", "Chapel", "Tower", "Basement Landing", "Ritual Room"]
+      "entries": ["Basement Landing", "Chapel", "Entrance Hall", "Ritual Room", "Tower"]
     }
   ]
 }
