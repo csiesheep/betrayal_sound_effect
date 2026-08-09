@@ -9,6 +9,7 @@
     'Chainsaw': 'i-chainsaw',
     'Zombie': 'i-skull',
     'Ghost': 'i-ghost',
+    'Crossbow': 'i-crossbow',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
