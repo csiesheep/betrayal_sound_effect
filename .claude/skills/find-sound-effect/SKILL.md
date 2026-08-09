@@ -105,15 +105,12 @@ not the final save. Don't write anything into `assets/` yet.
 
 Show a table: title, artist, duration, format/size, license, and any
 notable flag (Pixabay marks some files "AI modified or generated" — call
-that out, some users will care, some won't). Link each row to the
-**direct CDN URL** from Step 3 (`cdn.pixabay.com/download/audio/...`),
-not just the Pixabay page — opening the direct file URL plays natively
-in the browser's own audio player, which sidesteps Pixabay's in-page
-player (unreliable in practice; it's failed to play for the user
-before, and the "Free download" button doesn't do anything
-script-observable to begin with). Don't send the scratch files
-themselves as attachments — links the user can open are enough, and are
-less friction than a handful of file downloads.
+that out, some users will care, some won't). Link each row to its
+**Pixabay page URL** (the `source_url` from Step 3) so the user can open
+it and use Pixabay's own preview player to listen before picking — don't
+link the raw CDN file URL instead, and don't send the scratch files
+themselves as attachments; the Pixabay page is what the user wants
+here.
 
 Then stop and wait for the user to pick one, ask for more candidates, or
 reject the batch and broaden the search. **Never skip straight to saving
