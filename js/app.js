@@ -16,6 +16,7 @@
     "Angel's Feather": 'i-angels-feather',
     'Brooch': 'i-brooch',
     'Creepy Doll': 'i-creepy-doll',
+    'First Aid Kit': 'i-first-aid-kit',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
