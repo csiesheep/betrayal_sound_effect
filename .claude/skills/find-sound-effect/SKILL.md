@@ -105,19 +105,15 @@ not the final save. Don't write anything into `assets/` yet.
 
 Show a table: title, artist, duration, format/size, license, and any
 notable flag (Pixabay marks some files "AI modified or generated" — call
-that out, some users will care, some won't). Then **send the actual
-scratch files from Step 4** to the user (the same ones already verified,
-no need to re-download) so they can listen before picking — a metadata
-table alone isn't enough to judge "does this actually sound right," and
-Pixabay's own in-page preview player isn't reliable to point them at
-(the "Free download" button doesn't do anything script-observable, and
-in practice its audio player has failed to play for the user before).
-The file-sending tool needs Windows-style paths, not the POSIX `/tmp/...`
-ones `curl` was given in Step 4 — convert first:
-
-```bash
-cygpath -w /tmp/candidate.mp3
-```
+that out, some users will care, some won't). Link each row to the
+**direct CDN URL** from Step 3 (`cdn.pixabay.com/download/audio/...`),
+not just the Pixabay page — opening the direct file URL plays natively
+in the browser's own audio player, which sidesteps Pixabay's in-page
+player (unreliable in practice; it's failed to play for the user
+before, and the "Free download" button doesn't do anything
+script-observable to begin with). Don't send the scratch files
+themselves as attachments — links the user can open are enough, and are
+less friction than a handful of file downloads.
 
 Then stop and wait for the user to pick one, ask for more candidates, or
 reject the batch and broaden the search. **Never skip straight to saving
