@@ -219,5 +219,18 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/film-special-effects-unfold-a-map-46452/",
     "date_downloaded": "2026-08-09"
+  },
+  {
+    "id": "item-mirror",
+    "title": "SHATTER",
+    "category": "item",
+    "tag": "Mirror",
+    "file": "assets/audio/sfx/items/mirror.mp3",
+    "source": "Pixabay",
+    "artist": "Stu9",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-shatter-363188/",
+    "date_downloaded": "2026-08-09"
   }
 ]
