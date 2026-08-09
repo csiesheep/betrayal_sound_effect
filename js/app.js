@@ -11,13 +11,6 @@
     'Ghost': 'i-ghost',
   };
 
-  const CAT_ICONS = {
-    item: 'i-placeholder',
-    weapon: 'i-cat-weapon',
-    monster: 'i-cat-monster',
-    room: 'i-cat-room',
-  };
-
   const [catalogRes, soundsRes] = await Promise.all([
     fetch('data/catalog.json'),
     fetch('data/sounds.json'),
@@ -73,7 +66,7 @@
     const summary = document.createElement('summary');
     summary.className = 'cat-head';
     summary.innerHTML =
-      '<svg class="cat-icon"><use href="#' + (CAT_ICONS[cat.id] || 'i-placeholder') + '"></use></svg>' +
+      '<svg class="cat-icon"><use href="#' + (cat.icon || 'i-placeholder') + '"></use></svg>' +
       '<span class="cat-name">' + escapeHtml(cat.name) + '</span>' +
       '<span class="cat-count">' + sourcedCount + ' of ' + cat.entries.length + ' sourced</span>' +
       '<span class="cat-spacer"></span>' +
@@ -88,7 +81,7 @@
     cat.entries.forEach(function (name) {
       const sound = byTag.get(name);
       const sourced = !!sound;
-      const iconId = sourced ? (ICONS[name] || CAT_ICONS[cat.id] || 'i-placeholder') : 'i-placeholder';
+      const iconId = sourced ? (ICONS[name] || cat.icon || 'i-placeholder') : 'i-placeholder';
 
       const btn = document.createElement('button');
       btn.type = 'button';

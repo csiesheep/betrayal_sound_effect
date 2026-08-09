@@ -3,26 +3,68 @@
     {
       "id": "item",
       "name": "Items",
-      "icon": "cat-generic",
-      "entries": ["First Aid Kit", "Flashlight", "Magic Camera", "Mirror", "Rabbit's Foot", "Skeleton Key"]
+      "icon": "i-placeholder",
+      "entries": [
+        "Angel's Feather", "Brooch", "Creepy Doll", "First Aid Kit", "Flashlight",
+        "Headphones", "Leather Jacket", "Lucky Coin", "Magic Camera", "Map",
+        "Mirror", "Mystical Stopwatch", "Necklace of Teeth", "Rabbit's Foot",
+        "Skeleton Key", "Strange Amulet", "Strange Medicine"
+      ]
     },
     {
       "id": "weapon",
       "name": "Weapons",
-      "icon": "cat-weapon",
+      "icon": "i-cat-weapon",
       "entries": ["Chainsaw", "Crossbow", "Dynamite", "Gun", "Machete"]
     },
     {
       "id": "monster",
       "name": "Monsters",
-      "icon": "cat-monster",
-      "entries": ["Ghost", "Giant Wasp", "Vampire", "Werewolf", "Zombie"]
+      "icon": "i-cat-monster",
+      "entries": [
+        "Bakeneko", "Banshee", "Bat Swarm", "Chainsaw Maniac", "Chupacabra",
+        "Cultist", "Demon", "Doppelganger", "Frankenstein's-Monster-type Creation",
+        "Gargoyle", "Ghost", "Ghost Shark", "Ghoul", "Giant Hair Monster",
+        "Giant Spider", "Giant Wasp", "Grim Reaper", "Head of the House",
+        "Hellhound", "Killer Clown", "Locust/Insect Swarm", "Masked Slasher",
+        "Mummy", "Plague Doctor", "Poltergeist", "Possessed Doll", "Rat Swarm",
+        "Revenant", "Scarecrow", "Sea Monster/Kraken", "Security Robot",
+        "Shadow Figure", "Skeleton", "Spirit", "Vampire", "Werewolf", "Witch",
+        "Yeti/Bigfoot-type", "Zombie"
+      ]
     },
     {
       "id": "room",
       "name": "Rooms",
-      "icon": "cat-room",
-      "entries": ["Basement Landing", "Chapel", "Entrance Hall", "Ritual Room", "Tower"]
+      "icon": "i-cat-room",
+      "entries": [
+        "Armory", "Basement Landing", "Bloody Room", "Catacombs", "Chapel",
+        "Charred Room", "Chasm", "Collapsed Room", "Conservatory",
+        "Cramped Passageway", "Crawlspace", "Dining Room", "Entrance Hall",
+        "Furnace Room", "Gallery", "Game Room", "Graveyard",
+        "Ground Floor Staircase", "Guest Quarters", "Gymnasium", "Hallway",
+        "Junk Room", "Kitchen", "Laboratory", "Larder", "Laundry Chute",
+        "Library", "Mystic Elevator", "Nursery", "Observatory",
+        "Operating Theatre", "Organ Room", "Panic Room", "Primary Bedroom",
+        "Ritual Room", "Salon", "Secret Staircase", "Soundproofed Room",
+        "Specimen Room", "Statuary Corridor", "Tower", "Underground Cavern",
+        "Underground Lake", "Upper Landing", "Vault", "Winter Bedroom"
+      ]
+    },
+    {
+      "id": "omen",
+      "name": "Omens",
+      "icon": "i-cat-omen",
+      "entries": [
+        "Armor", "Book", "Dagger", "Dog", "Holy Symbol", "Idol", "Mask",
+        "Ring", "Skull"
+      ]
+    },
+    {
+      "id": "event",
+      "name": "Events",
+      "icon": "i-cat-event",
+      "entries": ["Flickering Lights", "Funeral", "Wandering Ghost"]
     }
   ]
 }
