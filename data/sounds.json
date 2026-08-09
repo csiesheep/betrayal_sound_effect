@@ -50,5 +50,18 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/horror-ghost-6979/",
     "date_downloaded": "2026-08-08"
+  },
+  {
+    "id": "weapon-crossbow",
+    "title": "Crossbow Firing",
+    "category": "weapon",
+    "tag": "Crossbow",
+    "file": "assets/audio/sfx/weapons/crossbow.mp3",
+    "source": "Pixabay",
+    "artist": "GameWithBepis (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-crossbow-firing-95020/",
+    "date_downloaded": "2026-08-09"
   }
 ]
