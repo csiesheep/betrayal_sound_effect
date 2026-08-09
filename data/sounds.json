@@ -206,5 +206,18 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/film-special-effects-camera-shutter-346101/",
     "date_downloaded": "2026-08-09"
+  },
+  {
+    "id": "item-map",
+    "title": "Unfold a map",
+    "category": "item",
+    "tag": "Map",
+    "file": "assets/audio/sfx/items/map.mp3",
+    "source": "Pixabay",
+    "artist": "Breviceps (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-unfold-a-map-46452/",
+    "date_downloaded": "2026-08-09"
   }
 ]
