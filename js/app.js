@@ -10,6 +10,7 @@
     'Zombie': 'i-skull',
     'Ghost': 'i-ghost',
     'Crossbow': 'i-crossbow',
+    'Dynamite': 'i-dynamite',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
