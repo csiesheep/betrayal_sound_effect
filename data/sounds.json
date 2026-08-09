@@ -1,15 +1,41 @@
 [
   {
-    "id": "item-flashlight-click",
+    "id": "item-flashlight",
     "title": "Flashlight Click",
     "category": "item",
     "tag": "Flashlight",
-    "file": "assets/audio/sfx/items/flashlight_click.mp3",
+    "file": "assets/audio/sfx/items/flashlight.mp3",
     "source": "Pixabay",
     "artist": "CreepyPastry (freesound_community)",
     "license": "Pixabay Content License",
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/film-special-effects-flashlight-click-46073/",
+    "date_downloaded": "2026-08-08"
+  },
+  {
+    "id": "weapon-chainsaw",
+    "title": "Chainsaw Start",
+    "category": "weapon",
+    "tag": "Chainsaw",
+    "file": "assets/audio/sfx/weapons/chainsaw.mp3",
+    "source": "Pixabay",
+    "artist": "Bubba4827",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/technology-chainsaw-start-218438/",
+    "date_downloaded": "2026-08-08"
+  },
+  {
+    "id": "monster-zombie",
+    "title": "Zombie Sound",
+    "category": "monster",
+    "tag": "Zombie",
+    "file": "assets/audio/sfx/monsters/zombie.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/horror-zombie-sound-357975/",
     "date_downloaded": "2026-08-08"
   }
 ]
