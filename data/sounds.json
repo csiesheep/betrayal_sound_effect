@@ -37,5 +37,18 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/horror-zombie-sound-357975/",
     "date_downloaded": "2026-08-08"
+  },
+  {
+    "id": "monster-ghost",
+    "title": "Ghost",
+    "category": "monster",
+    "tag": "Ghost",
+    "file": "assets/audio/sfx/monsters/ghost.mp3",
+    "source": "Pixabay",
+    "artist": "yunusakademi (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/horror-ghost-6979/",
+    "date_downloaded": "2026-08-08"
   }
 ]
