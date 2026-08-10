@@ -349,5 +349,18 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/film-special-effects-dishes-88148/",
     "date_downloaded": "2026-08-09"
+  },
+  {
+    "id": "event-a-moment-of-hope",
+    "title": "uplifting sound",
+    "category": "event",
+    "tag": "A Moment of Hope",
+    "file": "assets/audio/sfx/events/a_moment_of_hope.mp3",
+    "source": "Pixabay",
+    "artist": "KoiRoylers",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-uplifting-sound-356041/",
+    "date_downloaded": "2026-08-09"
   }
 ]
