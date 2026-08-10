@@ -23,6 +23,7 @@
     'Magic Camera': 'i-magic-camera',
     'Map': 'i-map',
     'Mirror': 'i-mirror',
+    'Mystical Stopwatch': 'i-mystical-stopwatch',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
