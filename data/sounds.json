@@ -505,5 +505,18 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/film-special-effects-door-creaking-335491/",
     "date_downloaded": "2026-08-10"
+  },
+  {
+    "id": "event-dark-and-stormy-night",
+    "title": "Loud Thunder",
+    "category": "event",
+    "tag": "Dark and Stormy Night",
+    "file": "assets/audio/sfx/events/dark_and_stormy_night.mp3",
+    "source": "Pixabay",
+    "artist": "Universfield",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/nature-loud-thunder-192165/",
+    "date_downloaded": "2026-08-10"
   }
 ]
