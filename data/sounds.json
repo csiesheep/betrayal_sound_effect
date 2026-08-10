@@ -440,5 +440,18 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/people-lich-demonic-voice-i-sense-you-490452/",
     "date_downloaded": "2026-08-10"
+  },
+  {
+    "id": "event-brain-food",
+    "title": "Squishy",
+    "category": "event",
+    "tag": "Brain Food",
+    "file": "assets/audio/sfx/events/brain_food.mp3",
+    "source": "Pixabay",
+    "artist": "deleted_user_958643 (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/horror-squishy-46801/",
+    "date_downloaded": "2026-08-10"
   }
 ]
