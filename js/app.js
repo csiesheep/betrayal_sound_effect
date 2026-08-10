@@ -28,6 +28,7 @@
     "Rabbit's Foot": 'i-rabbits-foot',
     'Skeleton Key': 'i-skeleton-key',
     'Strange Amulet': 'i-strange-amulet',
+    'Strange Medicine': 'i-strange-medicine',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
