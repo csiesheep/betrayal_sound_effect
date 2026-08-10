@@ -284,5 +284,18 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/household-lock-and-key-37699/",
     "date_downloaded": "2026-08-09"
+  },
+  {
+    "id": "item-strange-amulet",
+    "title": "mystical",
+    "category": "item",
+    "tag": "Strange Amulet",
+    "file": "assets/audio/sfx/items/strange_amulet.mp3",
+    "source": "Pixabay",
+    "artist": "KoiRoylers",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-mystical-355968/",
+    "date_downloaded": "2026-08-09"
   }
 ]
