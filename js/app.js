@@ -39,6 +39,7 @@
     'An Eerie Feeling': 'i-an-eerie-feeling',
     'Bat Out of Hell': 'i-bat-out-of-hell',
     'Behind You!': 'i-behind-you',
+    'Brain Food': 'i-brain-food',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
