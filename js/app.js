@@ -32,6 +32,7 @@
     'A Bite!': 'i-a-bite',
     'A Cry for Help': 'i-a-cry-for-help',
     'A Full Table': 'i-a-full-table',
+    'A Moment of Hope': 'i-a-moment-of-hope',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
