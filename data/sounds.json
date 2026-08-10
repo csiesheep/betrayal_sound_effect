@@ -466,5 +466,18 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/film-special-effects-fire-spell-impact-448565/",
     "date_downloaded": "2026-08-10"
+  },
+  {
+    "id": "event-cassette-player",
+    "title": "Man Talking Unintelligibly 2",
+    "category": "event",
+    "tag": "Cassette Player",
+    "file": "assets/audio/sfx/events/cassette_player.mp3",
+    "source": "Pixabay",
+    "artist": "sdking79",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/people-man-talking-unintelligibly-2-546037/",
+    "date_downloaded": "2026-08-10"
   }
 ]
