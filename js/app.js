@@ -44,6 +44,7 @@
     'Cassette Player': 'i-cassette-player',
     'Clown Room': 'i-clown-room',
     'Creaking Door': 'i-creaking-door',
+    'Dark and Stormy Night': 'i-dark-and-stormy-night',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
