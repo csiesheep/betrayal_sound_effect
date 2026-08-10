@@ -34,6 +34,7 @@
     'A Full Table': 'i-a-full-table',
     'A Moment of Hope': 'i-a-moment-of-hope',
     'A Secret Passage': 'i-a-secret-passage',
+    'A Splash of Crimson': 'i-a-splash-of-crimson',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
