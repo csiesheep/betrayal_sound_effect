@@ -479,5 +479,18 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/people-man-talking-unintelligibly-2-546037/",
     "date_downloaded": "2026-08-10"
+  },
+  {
+    "id": "event-clown-room",
+    "title": "Creepy Laugh - 2",
+    "category": "event",
+    "tag": "Clown Room",
+    "file": "assets/audio/sfx/events/clown_room.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/horror-creepy-laugh-2-401714/",
+    "date_downloaded": "2026-08-10"
   }
 ]
