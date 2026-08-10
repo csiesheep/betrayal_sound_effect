@@ -453,5 +453,18 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/horror-squishy-46801/",
     "date_downloaded": "2026-08-10"
+  },
+  {
+    "id": "event-burning-figure",
+    "title": "Fire Spell Impact",
+    "category": "event",
+    "tag": "Burning Figure",
+    "file": "assets/audio/sfx/events/burning_figure.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-fire-spell-impact-448565/",
+    "date_downloaded": "2026-08-10"
   }
 ]
