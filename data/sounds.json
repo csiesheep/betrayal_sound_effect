@@ -362,5 +362,18 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/film-special-effects-uplifting-sound-356041/",
     "date_downloaded": "2026-08-09"
+  },
+  {
+    "id": "event-a-secret-passage",
+    "title": "Stone,Block,Drag,Wood,Grind",
+    "category": "event",
+    "tag": "A Secret Passage",
+    "file": "assets/audio/sfx/events/a_secret_passage.mp3",
+    "source": "Pixabay",
+    "artist": "Mediaman57 (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-stoneblockdragwoodgrind-82327/",
+    "date_downloaded": "2026-08-09"
   }
 ]
