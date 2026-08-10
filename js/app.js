@@ -45,6 +45,7 @@
     'Clown Room': 'i-clown-room',
     'Creaking Door': 'i-creaking-door',
     'Dark and Stormy Night': 'i-dark-and-stormy-night',
+    'Eerie Mirror': 'i-eerie-mirror',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
