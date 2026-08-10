@@ -35,6 +35,7 @@
     'A Moment of Hope': 'i-a-moment-of-hope',
     'A Secret Passage': 'i-a-secret-passage',
     'A Splash of Crimson': 'i-a-splash-of-crimson',
+    'A Vial of Dust': 'i-a-vial-of-dust',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
