@@ -43,6 +43,7 @@
     'Burning Figure': 'i-burning-figure',
     'Cassette Player': 'i-cassette-player',
     'Clown Room': 'i-clown-room',
+    'Creaking Door': 'i-creaking-door',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
