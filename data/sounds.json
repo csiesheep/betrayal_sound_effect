@@ -531,5 +531,44 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/horror-i-see-you-creepy-ghost-whisper-401711/",
     "date_downloaded": "2026-08-10"
+  },
+  {
+    "id": "event-flickering-lights",
+    "title": "flourescent light",
+    "category": "event",
+    "tag": "Flickering Lights",
+    "file": "assets/audio/sfx/events/flickering_lights.mp3",
+    "source": "Pixabay",
+    "artist": "samwd (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-flourescent-light-29596/",
+    "date_downloaded": "2026-08-10"
+  },
+  {
+    "id": "event-forbidden-knowledge",
+    "title": "Deep Haunting Drone",
+    "category": "event",
+    "tag": "Forbidden Knowledge",
+    "file": "assets/audio/sfx/events/forbidden_knowledge.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-deep-haunting-drone-482880/",
+    "date_downloaded": "2026-08-10"
+  },
+  {
+    "id": "event-funeral",
+    "title": "Single Church Bell",
+    "category": "event",
+    "tag": "Funeral",
+    "file": "assets/audio/sfx/events/funeral.mp3",
+    "source": "Pixabay",
+    "artist": "Universfield",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/musical-single-church-bell-156463/",
+    "date_downloaded": "2026-08-10"
   }
 ]
