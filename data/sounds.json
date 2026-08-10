@@ -518,5 +518,18 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/nature-loud-thunder-192165/",
     "date_downloaded": "2026-08-10"
+  },
+  {
+    "id": "event-eerie-mirror",
+    "title": "I SEE YOU - Creepy Ghost Whisper",
+    "category": "event",
+    "tag": "Eerie Mirror",
+    "file": "assets/audio/sfx/events/eerie_mirror.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/horror-i-see-you-creepy-ghost-whisper-401711/",
+    "date_downloaded": "2026-08-10"
   }
 ]
