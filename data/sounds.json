@@ -492,5 +492,18 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/horror-creepy-laugh-2-401714/",
     "date_downloaded": "2026-08-10"
+  },
+  {
+    "id": "event-creaking-door",
+    "title": "Door Creaking",
+    "category": "event",
+    "tag": "Creaking Door",
+    "file": "assets/audio/sfx/events/creaking_door.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-door-creaking-335491/",
+    "date_downloaded": "2026-08-10"
   }
 ]
