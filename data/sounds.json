@@ -232,5 +232,18 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/film-special-effects-shatter-363188/",
     "date_downloaded": "2026-08-09"
+  },
+  {
+    "id": "item-mystical-stopwatch",
+    "title": "Catchy Clock Ticking Effect",
+    "category": "item",
+    "tag": "Mystical Stopwatch",
+    "file": "assets/audio/sfx/items/mystical_stopwatch.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/catchy-clock-ticking-effect-463215/",
+    "date_downloaded": "2026-08-09"
   }
 ]
