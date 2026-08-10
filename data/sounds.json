@@ -245,5 +245,18 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/catchy-clock-ticking-effect-463215/",
     "date_downloaded": "2026-08-09"
+  },
+  {
+    "id": "item-necklace-of-teeth",
+    "title": "Rattling Bones",
+    "category": "item",
+    "tag": "Necklace of Teeth",
+    "file": "assets/audio/sfx/items/necklace_of_teeth.mp3",
+    "source": "Pixabay",
+    "artist": "spookymodem (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-rattling-bones-105394/",
+    "date_downloaded": "2026-08-09"
   }
 ]
