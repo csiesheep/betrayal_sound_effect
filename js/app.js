@@ -46,6 +46,9 @@
     'Creaking Door': 'i-creaking-door',
     'Dark and Stormy Night': 'i-dark-and-stormy-night',
     'Eerie Mirror': 'i-eerie-mirror',
+    'Flickering Lights': 'i-flickering-lights',
+    'Forbidden Knowledge': 'i-forbidden-knowledge',
+    'Funeral': 'i-funeral',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
