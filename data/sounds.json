@@ -388,5 +388,18 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/film-special-effects-blood-splatter-122253/",
     "date_downloaded": "2026-08-09"
+  },
+  {
+    "id": "event-a-vial-of-dust",
+    "title": "Magic Twinkle",
+    "category": "event",
+    "tag": "A Vial of Dust",
+    "file": "assets/audio/sfx/events/a_vial_of_dust.mp3",
+    "source": "Pixabay",
+    "artist": "Universfield",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-magic-twinkle-244951/",
+    "date_downloaded": "2026-08-09"
   }
 ]
