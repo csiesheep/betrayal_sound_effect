@@ -414,5 +414,18 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/horror-horror-sting-25237/",
     "date_downloaded": "2026-08-09"
+  },
+  {
+    "id": "event-bat-out-of-hell",
+    "title": "Bat Chirping Type 1",
+    "category": "event",
+    "tag": "Bat Out of Hell",
+    "file": "assets/audio/sfx/events/bat_out_of_hell.mp3",
+    "source": "Pixabay",
+    "artist": "The-Vampires-Monster",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/nature-bat-chirping-type-1-354288/",
+    "date_downloaded": "2026-08-09"
   }
 ]
