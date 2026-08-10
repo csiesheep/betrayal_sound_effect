@@ -24,6 +24,7 @@
     'Map': 'i-map',
     'Mirror': 'i-mirror',
     'Mystical Stopwatch': 'i-mystical-stopwatch',
+    'Necklace of Teeth': 'i-necklace-of-teeth',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
