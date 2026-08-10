@@ -310,5 +310,18 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/film-special-effects-potion-drink-4-540186/",
     "date_downloaded": "2026-08-09"
+  },
+  {
+    "id": "event-a-bite",
+    "title": "monster bite",
+    "category": "event",
+    "tag": "A Bite!",
+    "file": "assets/audio/sfx/events/a_bite.mp3",
+    "source": "Pixabay",
+    "artist": "soundmast123 (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/horror-monster-bite-44538/",
+    "date_downloaded": "2026-08-09"
   }
 ]
