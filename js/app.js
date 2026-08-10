@@ -42,6 +42,7 @@
     'Brain Food': 'i-brain-food',
     'Burning Figure': 'i-burning-figure',
     'Cassette Player': 'i-cassette-player',
+    'Clown Room': 'i-clown-room',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
