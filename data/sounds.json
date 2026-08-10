@@ -427,5 +427,18 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/nature-bat-chirping-type-1-354288/",
     "date_downloaded": "2026-08-09"
+  },
+  {
+    "id": "event-behind-you",
+    "title": "Lich Demonic Voice - I Sense You!",
+    "category": "event",
+    "tag": "Behind You!",
+    "file": "assets/audio/sfx/events/behind_you.mp3",
+    "source": "Pixabay",
+    "artist": "PhatPhrogStudio",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/people-lich-demonic-voice-i-sense-you-490452/",
+    "date_downloaded": "2026-08-10"
   }
 ]
