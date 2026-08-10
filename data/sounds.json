@@ -336,5 +336,18 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/people-help-help-322552/",
     "date_downloaded": "2026-08-09"
+  },
+  {
+    "id": "event-a-full-table",
+    "title": "Dishes",
+    "category": "event",
+    "tag": "A Full Table",
+    "file": "assets/audio/sfx/events/a_full_table.mp3",
+    "source": "Pixabay",
+    "artist": "Nomadyag (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-dishes-88148/",
+    "date_downloaded": "2026-08-09"
   }
 ]
