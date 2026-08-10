@@ -26,6 +26,7 @@
     'Mystical Stopwatch': 'i-mystical-stopwatch',
     'Necklace of Teeth': 'i-necklace-of-teeth',
     "Rabbit's Foot": 'i-rabbits-foot',
+    'Skeleton Key': 'i-skeleton-key',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
