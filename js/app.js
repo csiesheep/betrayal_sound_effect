@@ -41,6 +41,7 @@
     'Behind You!': 'i-behind-you',
     'Brain Food': 'i-brain-food',
     'Burning Figure': 'i-burning-figure',
+    'Cassette Player': 'i-cassette-player',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
