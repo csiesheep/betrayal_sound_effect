@@ -35,3 +35,76 @@ const AudioEngine = (function () {
 
   return { play: play, stop: stop, isPlaying: isPlaying };
 })();
+
+// Looping background-music player. Separate from AudioEngine: only one
+// track plays at a time, it loops, and it has its own volume so a GM can
+// duck the music without touching the SFX layer.
+const MusicEngine = (function () {
+  let audio = null;
+  let currentId = null;
+  let volume = 0.5;
+
+  function playTrack(id, src) {
+    if (currentId === id && audio) {
+      return resume();
+    }
+    stop();
+    const el = new Audio(src);
+    el.loop = true;
+    el.volume = volume;
+    audio = el;
+    currentId = id;
+    return el.play().catch(function (err) {
+      if (audio === el) {
+        audio = null;
+        currentId = null;
+      }
+      throw err;
+    });
+  }
+
+  function pause() {
+    if (audio) audio.pause();
+  }
+
+  function resume() {
+    return audio ? audio.play() : Promise.reject(new Error('no track loaded'));
+  }
+
+  function stop() {
+    if (audio) {
+      audio.pause();
+      audio.currentTime = 0;
+    }
+    audio = null;
+    currentId = null;
+  }
+
+  function setVolume(v) {
+    volume = Math.min(1, Math.max(0, v));
+    if (audio) audio.volume = volume;
+  }
+
+  function getVolume() {
+    return volume;
+  }
+
+  function isPaused() {
+    return !audio || audio.paused;
+  }
+
+  function getCurrentId() {
+    return currentId;
+  }
+
+  return {
+    playTrack: playTrack,
+    pause: pause,
+    resume: resume,
+    stop: stop,
+    setVolume: setVolume,
+    getVolume: getVolume,
+    isPaused: isPaused,
+    getCurrentId: getCurrentId,
+  };
+})();

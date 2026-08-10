@@ -153,3 +153,106 @@
 
   refreshEmpty();
 })();
+
+// Background music panel: fetches data/music.json, renders the track
+// list + now-playing bar, and prints on-page credits for each track
+// (title, artist, license, source link) per the sourcing terms.
+(async function () {
+  const tracksRes = await fetch('data/music.json');
+  const tracks = await tracksRes.json();
+
+  const trackList = document.getElementById('music-tracks');
+  const player = document.getElementById('music-player');
+  const toggleBtn = document.getElementById('music-toggle');
+  const stopBtn = document.getElementById('music-stop');
+  const nowEl = document.getElementById('music-now');
+  const volumeInput = document.getElementById('music-volume');
+  const creditsList = document.getElementById('music-credits');
+  if (!trackList) return;
+
+  function escapeHtml(s) {
+    const div = document.createElement('div');
+    div.textContent = s;
+    return div.innerHTML;
+  }
+
+  function setActiveButton(id) {
+    trackList.querySelectorAll('.track-btn').forEach(function (btn) {
+      btn.classList.toggle('is-playing', btn.getAttribute('data-id') === id);
+    });
+  }
+
+  function showPlayer(track) {
+    player.hidden = false;
+    nowEl.textContent = track.title;
+    toggleBtn.classList.remove('is-paused');
+    toggleBtn.setAttribute('aria-label', 'Pause');
+  }
+
+  function hidePlayer() {
+    player.hidden = true;
+    setActiveButton(null);
+  }
+
+  tracks.forEach(function (track) {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'track-btn';
+    btn.setAttribute('data-id', track.id);
+    btn.innerHTML =
+      '<svg class="track-icon"><use href="#i-play"></use></svg>' +
+      '<span class="track-info">' +
+        '<span class="track-title">' + escapeHtml(track.title) + '</span>' +
+        '<span class="track-artist">' + escapeHtml(track.artist) + '</span>' +
+      '</span>';
+    btn.addEventListener('click', function () {
+      MusicEngine.playTrack(track.id, track.file).then(function () {
+        setActiveButton(track.id);
+        showPlayer(track);
+      }).catch(function () {
+        hidePlayer();
+      });
+    });
+    trackList.appendChild(btn);
+  });
+
+  if (toggleBtn) {
+    toggleBtn.addEventListener('click', function () {
+      if (MusicEngine.isPaused()) {
+        MusicEngine.resume().catch(function () {});
+        toggleBtn.classList.remove('is-paused');
+        toggleBtn.setAttribute('aria-label', 'Pause');
+      } else {
+        MusicEngine.pause();
+        toggleBtn.classList.add('is-paused');
+        toggleBtn.setAttribute('aria-label', 'Play');
+      }
+    });
+  }
+
+  if (stopBtn) {
+    stopBtn.addEventListener('click', function () {
+      MusicEngine.stop();
+      hidePlayer();
+    });
+  }
+
+  if (volumeInput) {
+    volumeInput.value = MusicEngine.getVolume();
+    volumeInput.addEventListener('input', function () {
+      MusicEngine.setVolume(parseFloat(volumeInput.value));
+    });
+  }
+
+  if (creditsList) {
+    tracks.forEach(function (track) {
+      const li = document.createElement('li');
+      li.innerHTML =
+        '<span class="credit-title">' + escapeHtml(track.title) + '</span>' +
+        ' — ' + escapeHtml(track.artist) +
+        ' · ' + escapeHtml(track.license) +
+        ' · <a href="' + escapeHtml(track.source_url) + '" target="_blank" rel="noopener noreferrer">source</a>';
+      creditsList.appendChild(li);
+    });
+  }
+})();

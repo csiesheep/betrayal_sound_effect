@@ -1,0 +1,58 @@
+[
+  {
+    "id": "music-haunted-house-comedy",
+    "title": "Haunted House (Holiday, Halloween, Comedy)",
+    "file": "assets/audio/music/haunted_house_comedy.mp3",
+    "source": "Pixabay",
+    "artist": "raspberrymusic",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/music/scary-childrens-tunes-haunted-house-holiday-halloween-comedy-394302/",
+    "date_downloaded": null,
+    "note": "Not for standalone redistribution via Content ID / Spotify / Apple Music / Amazon per artist note; background playback on this site is fine."
+  },
+  {
+    "id": "music-in-a-haunted-house",
+    "title": "In a Haunted House",
+    "file": "assets/audio/music/in_a_haunted_house.mp3",
+    "source": "Pixabay",
+    "artist": "SoundsGoodMusic",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/music/mystery-in-a-haunted-house-297448/",
+    "date_downloaded": null
+  },
+  {
+    "id": "music-abandoned-mansion",
+    "title": "Abandoned Mansion - Eerie Horror Atmosphere",
+    "file": "assets/audio/music/abandoned_mansion.mp3",
+    "source": "Pixabay",
+    "artist": "Lilliben",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/music/ambient-abandoned-mansion-eerie-horror-atmosphere-364886/",
+    "date_downloaded": null
+  },
+  {
+    "id": "music-sad-piano-rain",
+    "title": "Sad Piano Emotional Rain Story",
+    "file": "assets/audio/music/sad_piano_rain.mp3",
+    "source": "Pixabay",
+    "artist": "alex-morgan",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/music/modern-classical-sad-piano-emotional-rain-story-575883/",
+    "date_downloaded": null
+  },
+  {
+    "id": "music-haunted-danger",
+    "title": "Haunted Danger",
+    "file": "assets/audio/music/haunted_danger.mp3",
+    "source": "Pixabay",
+    "artist": "Sonican",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/music/mystery-haunted-danger-338882/",
+    "date_downloaded": null
+  }
+]

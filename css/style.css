@@ -109,6 +109,196 @@ h1 {
   max-width: 52ch;
 }
 
+.section-title {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(19px, 3vw, 23px);
+  letter-spacing: 0.02em;
+  margin: 0;
+}
+
+.section-hint {
+  margin: 6px 0 0;
+  font-size: 12.5px;
+  color: var(--ink-dim);
+  line-height: 1.5;
+}
+
+.music-panel {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 16px 18px 18px;
+  margin-bottom: 20px;
+}
+
+.music-tracks {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.track-btn {
+  font-family: var(--font-body);
+  background: var(--void);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 10px 12px;
+  color: inherit;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: left;
+  width: 100%;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.track-btn:hover,
+.track-btn:focus-visible {
+  border-color: var(--amber-dim);
+}
+
+.track-btn.is-playing {
+  border-color: var(--amber);
+  box-shadow: 0 0 0 3px var(--amber-glow);
+  background: var(--amber-glow);
+}
+
+.track-btn .track-icon {
+  width: 18px;
+  height: 18px;
+  flex: none;
+  color: var(--amber);
+}
+
+.track-btn .track-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.track-title {
+  display: block;
+  font-size: 13.5px;
+  color: var(--ink);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.track-artist {
+  display: block;
+  font-size: 11px;
+  color: var(--ink-dim);
+  margin-top: 1px;
+}
+
+.music-player {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
+.music-player[hidden] {
+  display: none;
+}
+
+.music-toggle,
+.music-stop {
+  background: none;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--amber);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  flex: none;
+}
+
+.music-toggle svg,
+.music-stop svg {
+  width: 14px;
+  height: 14px;
+}
+
+.music-toggle .i-play-sm {
+  display: none;
+}
+
+.music-toggle.is-paused .i-pause {
+  display: none;
+}
+
+.music-toggle.is-paused .i-play-sm {
+  display: block;
+}
+
+.music-now {
+  flex: 1;
+  min-width: 0;
+  font-size: 12.5px;
+  color: var(--ink);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.music-vol-icon {
+  width: 15px;
+  height: 15px;
+  color: var(--ink-dim);
+  flex: none;
+}
+
+.music-volume {
+  width: 80px;
+  accent-color: var(--amber);
+  flex: none;
+}
+
+.credits {
+  margin-top: 24px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
+.credits-list {
+  list-style: none;
+  margin: 14px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.credits-list li {
+  font-size: 11.5px;
+  color: var(--ink-dim);
+  line-height: 1.6;
+}
+
+.credits-list a {
+  color: var(--ink-dim);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.credits-list a:hover,
+.credits-list a:focus-visible {
+  color: var(--amber);
+}
+
+.credits-list .credit-title {
+  color: var(--ink);
+}
+
 .categories {
   display: flex;
   flex-direction: column;
