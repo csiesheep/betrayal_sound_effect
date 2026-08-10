@@ -37,6 +37,7 @@
     'A Splash of Crimson': 'i-a-splash-of-crimson',
     'A Vial of Dust': 'i-a-vial-of-dust',
     'An Eerie Feeling': 'i-an-eerie-feeling',
+    'Bat Out of Hell': 'i-bat-out-of-hell',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
