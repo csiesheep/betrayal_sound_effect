@@ -29,6 +29,7 @@
     'Skeleton Key': 'i-skeleton-key',
     'Strange Amulet': 'i-strange-amulet',
     'Strange Medicine': 'i-strange-medicine',
+    'A Bite!': 'i-a-bite',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
