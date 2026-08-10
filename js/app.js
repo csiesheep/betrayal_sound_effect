@@ -36,6 +36,7 @@
     'A Secret Passage': 'i-a-secret-passage',
     'A Splash of Crimson': 'i-a-splash-of-crimson',
     'A Vial of Dust': 'i-a-vial-of-dust',
+    'An Eerie Feeling': 'i-an-eerie-feeling',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
