@@ -33,6 +33,7 @@
     'A Cry for Help': 'i-a-cry-for-help',
     'A Full Table': 'i-a-full-table',
     'A Moment of Hope': 'i-a-moment-of-hope',
+    'A Secret Passage': 'i-a-secret-passage',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
