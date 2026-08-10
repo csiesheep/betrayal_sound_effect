@@ -30,6 +30,7 @@
     'Strange Amulet': 'i-strange-amulet',
     'Strange Medicine': 'i-strange-medicine',
     'A Bite!': 'i-a-bite',
+    'A Cry for Help': 'i-a-cry-for-help',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
