@@ -40,6 +40,7 @@
     'Bat Out of Hell': 'i-bat-out-of-hell',
     'Behind You!': 'i-behind-you',
     'Brain Food': 'i-brain-food',
+    'Burning Figure': 'i-burning-figure',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
