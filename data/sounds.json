@@ -609,5 +609,44 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/film-special-effects-stop-time-542403/",
     "date_downloaded": "2026-08-10"
+  },
+  {
+    "id": "event-lab-of-organs",
+    "title": "Slime Impact",
+    "category": "event",
+    "tag": "Lab of Organs",
+    "file": "assets/audio/sfx/events/lab_of_organs.mp3",
+    "source": "Pixabay",
+    "artist": "Universfield",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-slime-impact-352473/",
+    "date_downloaded": "2026-08-10"
+  },
+  {
+    "id": "event-meat-moss",
+    "title": "Watermelon_Squelch7",
+    "category": "event",
+    "tag": "Meat Moss",
+    "file": "assets/audio/sfx/events/meat_moss.mp3",
+    "source": "Pixabay",
+    "artist": "lolamadeus (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-watermelon-squelch7-89691/",
+    "date_downloaded": "2026-08-10"
+  },
+  {
+    "id": "event-mysterious-fluid",
+    "title": "Chemistry Beaker Bubbling Liquid",
+    "category": "event",
+    "tag": "Mysterious Fluid",
+    "file": "assets/audio/sfx/events/mysterious_fluid.mp3",
+    "source": "Pixabay",
+    "artist": "Jerryblessed",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-chemistry-beaker-bubbling-liquid-544843/",
+    "date_downloaded": "2026-08-10"
   }
 ]
