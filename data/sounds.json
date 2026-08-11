@@ -765,5 +765,44 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/glitch-noise-454247/",
     "date_downloaded": "2026-08-10"
+  },
+  {
+    "id": "event-the-deepest-closet",
+    "title": "Closet Door Open; Near",
+    "category": "event",
+    "tag": "The Deepest Closet",
+    "file": "assets/audio/sfx/events/the_deepest_closet.mp3",
+    "source": "Pixabay",
+    "artist": "meggiepie (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/household-closet-door-open-near-79958/",
+    "date_downloaded": "2026-08-10"
+  },
+  {
+    "id": "event-the-flowering",
+    "title": "Magic Spell",
+    "category": "event",
+    "tag": "The Flowering",
+    "file": "assets/audio/sfx/events/the_flowering.mp3",
+    "source": "Pixabay",
+    "artist": "Universfield",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-magic-spell-278824/",
+    "date_downloaded": "2026-08-10"
+  },
+  {
+    "id": "event-the-house-is-hungry",
+    "title": "Deep Animalistic Rumbling",
+    "category": "event",
+    "tag": "The House Is Hungry",
+    "file": "assets/audio/sfx/events/the_house_is_hungry.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/horror-deep-animalistic-rumbling-472370/",
+    "date_downloaded": "2026-08-10"
   }
 ]
