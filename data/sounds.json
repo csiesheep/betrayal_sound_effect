@@ -648,5 +648,44 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/film-special-effects-chemistry-beaker-bubbling-liquid-544843/",
     "date_downloaded": "2026-08-10"
+  },
+  {
+    "id": "event-phone-call",
+    "title": "Telephone Ring (old German W48)",
+    "category": "event",
+    "tag": "Phone Call",
+    "file": "assets/audio/sfx/events/phone_call.mp3",
+    "source": "Pixabay",
+    "artist": "meisterleise (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/household-telephone-ring-old-german-w48-83246/",
+    "date_downloaded": "2026-08-10"
+  },
+  {
+    "id": "event-poor-yorick",
+    "title": "Bones 2",
+    "category": "event",
+    "tag": "Poor Yorick",
+    "file": "assets/audio/sfx/events/poor_yorick.mp3",
+    "source": "Pixabay",
+    "artist": "AntumDeluge (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-bones-2-88481/",
+    "date_downloaded": "2026-08-10"
+  },
+  {
+    "id": "event-radio-broadcast",
+    "title": "Radio Static",
+    "category": "event",
+    "tag": "Radio Broadcast",
+    "file": "assets/audio/sfx/events/radio_broadcast.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-radio-static-323621/",
+    "date_downloaded": "2026-08-10"
   }
 ]
