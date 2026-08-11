@@ -52,6 +52,9 @@
     'Hanged Men': 'i-hanged-men',
     'Impossible Architecture': 'i-impossible-architecture',
     "Jonah's Turn": 'i-jonahs-turn',
+    'Lab of Organs': 'i-lab-of-organs',
+    'Meat Moss': 'i-meat-moss',
+    'Mysterious Fluid': 'i-mysterious-fluid',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
