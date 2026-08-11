@@ -71,6 +71,9 @@
     'The Stars at Night': 'i-the-stars-at-night',
     'Tiny Ghost': 'i-tiny-ghost',
     'Wandering Ghost': 'i-wandering-ghost',
+    'Armor': 'i-armor',
+    'Book': 'i-book',
+    'Dagger': 'i-dagger',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
