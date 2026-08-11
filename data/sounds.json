@@ -726,5 +726,44 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/film-special-effects-worm-movement-277577/",
     "date_downloaded": "2026-08-10"
+  },
+  {
+    "id": "event-spiders",
+    "title": "Spider Attack (1)",
+    "category": "event",
+    "tag": "Spiders!",
+    "file": "assets/audio/sfx/events/spiders.mp3",
+    "source": "Pixabay",
+    "artist": "Yodguard",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/horror-spider-attack-1-482542/",
+    "date_downloaded": "2026-08-10"
+  },
+  {
+    "id": "event-taxidermy",
+    "title": "Creepy Monster Growling",
+    "category": "event",
+    "tag": "Taxidermy",
+    "file": "assets/audio/sfx/events/taxidermy.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/horror-creepy-monster-growling-472378/",
+    "date_downloaded": "2026-08-10"
+  },
+  {
+    "id": "event-technical-difficulties",
+    "title": "Glitch Noise",
+    "category": "event",
+    "tag": "Technical Difficulties",
+    "file": "assets/audio/sfx/events/technical_difficulties.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/glitch-noise-454247/",
+    "date_downloaded": "2026-08-10"
   }
 ]
