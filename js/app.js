@@ -64,6 +64,9 @@
     'Spiders!': 'i-spiders',
     'Taxidermy': 'i-taxidermy',
     'Technical Difficulties': 'i-technical-difficulties',
+    'The Deepest Closet': 'i-the-deepest-closet',
+    'The Flowering': 'i-the-flowering',
+    'The House Is Hungry': 'i-the-house-is-hungry',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
