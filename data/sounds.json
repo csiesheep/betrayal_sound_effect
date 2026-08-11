@@ -570,5 +570,44 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/musical-single-church-bell-156463/",
     "date_downloaded": "2026-08-10"
+  },
+  {
+    "id": "event-hanged-men",
+    "title": "Rope creak 01 sound effect",
+    "category": "event",
+    "tag": "Hanged Men",
+    "file": "assets/audio/sfx/events/hanged_men.mp3",
+    "source": "Pixabay",
+    "artist": "u_9eiwhfb0nv",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-rope-creak-01-sound-effect-340131/",
+    "date_downloaded": "2026-08-10"
+  },
+  {
+    "id": "event-impossible-architecture",
+    "title": "Groaning Metal",
+    "category": "event",
+    "tag": "Impossible Architecture",
+    "file": "assets/audio/sfx/events/impossible_architecture.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-groaning-metal-504039/",
+    "date_downloaded": "2026-08-10"
+  },
+  {
+    "id": "event-jonahs-turn",
+    "title": "Stop time",
+    "category": "event",
+    "tag": "Jonah's Turn",
+    "file": "assets/audio/sfx/events/jonahs_turn.mp3",
+    "source": "Pixabay",
+    "artist": "Chromascension",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-stop-time-542403/",
+    "date_downloaded": "2026-08-10"
   }
 ]
