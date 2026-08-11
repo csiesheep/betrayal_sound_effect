@@ -67,6 +67,10 @@
     'The Deepest Closet': 'i-the-deepest-closet',
     'The Flowering': 'i-the-flowering',
     'The House Is Hungry': 'i-the-house-is-hungry',
+    'The Oldest House': 'i-the-oldest-house',
+    'The Stars at Night': 'i-the-stars-at-night',
+    'Tiny Ghost': 'i-tiny-ghost',
+    'Wandering Ghost': 'i-wandering-ghost',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
