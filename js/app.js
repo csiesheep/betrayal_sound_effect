@@ -61,6 +61,9 @@
     'Say Cheese': 'i-say-cheese',
     'Secret Elevator': 'i-secret-elevator',
     'Severed Hand': 'i-severed-hand',
+    'Spiders!': 'i-spiders',
+    'Taxidermy': 'i-taxidermy',
+    'Technical Difficulties': 'i-technical-difficulties',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
