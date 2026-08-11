@@ -804,5 +804,57 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/horror-deep-animalistic-rumbling-472370/",
     "date_downloaded": "2026-08-10"
+  },
+  {
+    "id": "event-the-oldest-house",
+    "title": "Eerie Wind",
+    "category": "event",
+    "tag": "The Oldest House",
+    "file": "assets/audio/sfx/events/the_oldest_house.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/horror-eerie-wind-478386/",
+    "date_downloaded": "2026-08-11"
+  },
+  {
+    "id": "event-the-stars-at-night",
+    "title": "Dissonant Piano Stinger",
+    "category": "event",
+    "tag": "The Stars at Night",
+    "file": "assets/audio/sfx/events/the_stars_at_night.mp3",
+    "source": "Pixabay",
+    "artist": "XfiXy8 (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/musical-dissonant-piano-stinger-45559/",
+    "date_downloaded": "2026-08-11"
+  },
+  {
+    "id": "event-tiny-ghost",
+    "title": "Child Giggle",
+    "category": "event",
+    "tag": "Tiny Ghost",
+    "file": "assets/audio/sfx/events/tiny_ghost.mp3",
+    "source": "Pixabay",
+    "artist": "FunWithSound (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/people-child-giggle-81205/",
+    "date_downloaded": "2026-08-11"
+  },
+  {
+    "id": "event-wandering-ghost",
+    "title": "Cemetery Wind",
+    "category": "event",
+    "tag": "Wandering Ghost",
+    "file": "assets/audio/sfx/events/wandering_ghost.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/cemetery-wind-467488/",
+    "date_downloaded": "2026-08-11"
   }
 ]
