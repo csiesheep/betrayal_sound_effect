@@ -49,6 +49,9 @@
     'Flickering Lights': 'i-flickering-lights',
     'Forbidden Knowledge': 'i-forbidden-knowledge',
     'Funeral': 'i-funeral',
+    'Hanged Men': 'i-hanged-men',
+    'Impossible Architecture': 'i-impossible-architecture',
+    "Jonah's Turn": 'i-jonahs-turn',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
