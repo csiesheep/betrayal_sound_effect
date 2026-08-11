@@ -58,6 +58,9 @@
     'Phone Call': 'i-phone-call',
     'Poor Yorick': 'i-poor-yorick',
     'Radio Broadcast': 'i-radio-broadcast',
+    'Say Cheese': 'i-say-cheese',
+    'Secret Elevator': 'i-secret-elevator',
+    'Severed Hand': 'i-severed-hand',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
