@@ -856,5 +856,44 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/cemetery-wind-467488/",
     "date_downloaded": "2026-08-11"
+  },
+  {
+    "id": "omen-armor",
+    "title": "Armor Impact from Sword",
+    "category": "omen",
+    "tag": "Armor",
+    "file": "assets/audio/sfx/omens/armor.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-armor-impact-from-sword-393843/",
+    "date_downloaded": "2026-08-11"
+  },
+  {
+    "id": "omen-book",
+    "title": "Thick Book Placed on a Classroom Desk",
+    "category": "omen",
+    "tag": "Book",
+    "file": "assets/audio/sfx/omens/book.mp3",
+    "source": "Pixabay",
+    "artist": "arunangshubanerjee",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-thick-book-placed-on-a-classroom-desk-330037/",
+    "date_downloaded": "2026-08-11"
+  },
+  {
+    "id": "omen-dagger",
+    "title": "Knife Blade Out",
+    "category": "omen",
+    "tag": "Dagger",
+    "file": "assets/audio/sfx/omens/dagger.mp3",
+    "source": "Pixabay",
+    "artist": "Yoo_Game_Art",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-knife-blade-out-400150/",
+    "date_downloaded": "2026-08-11"
   }
 ]
