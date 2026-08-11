@@ -687,5 +687,44 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/film-special-effects-radio-static-323621/",
     "date_downloaded": "2026-08-10"
+  },
+  {
+    "id": "event-say-cheese",
+    "title": "Camera shutter and flash combined",
+    "category": "event",
+    "tag": "Say Cheese",
+    "file": "assets/audio/sfx/events/say_cheese.mp3",
+    "source": "Pixabay",
+    "artist": "montclairguy (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/technology-camera-shutter-and-flash-combined-6827/",
+    "date_downloaded": "2026-08-10"
+  },
+  {
+    "id": "event-secret-elevator",
+    "title": "Ancient Mechanical Gears",
+    "category": "event",
+    "tag": "Secret Elevator",
+    "file": "assets/audio/sfx/events/secret_elevator.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/city-ancient-mechanical-gears-487670/",
+    "date_downloaded": "2026-08-10"
+  },
+  {
+    "id": "event-severed-hand",
+    "title": "Worm Movement",
+    "category": "event",
+    "tag": "Severed Hand",
+    "file": "assets/audio/sfx/events/severed_hand.mp3",
+    "source": "Pixabay",
+    "artist": "Universfield",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-worm-movement-277577/",
+    "date_downloaded": "2026-08-10"
   }
 ]
