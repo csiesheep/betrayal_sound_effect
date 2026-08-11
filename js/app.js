@@ -55,6 +55,9 @@
     'Lab of Organs': 'i-lab-of-organs',
     'Meat Moss': 'i-meat-moss',
     'Mysterious Fluid': 'i-mysterious-fluid',
+    'Phone Call': 'i-phone-call',
+    'Poor Yorick': 'i-poor-yorick',
+    'Radio Broadcast': 'i-radio-broadcast',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
