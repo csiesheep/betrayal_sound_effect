@@ -90,6 +90,15 @@
     'Chasm': 'i-chasm',
     'Collapsed Room': 'i-collapsed-room',
     'Conservatory': 'i-conservatory',
+    'Cramped Passageway': 'i-cramped-passageway',
+    'Crawlspace': 'i-crawlspace',
+    'Dining Room': 'i-dining-room',
+    'Entrance Hall': 'i-entrance-hall',
+    'Furnace Room': 'i-furnace-room',
+    'Gallery': 'i-gallery',
+    'Game Room': 'i-game-room',
+    'Graveyard': 'i-graveyard',
+    'Ground Floor Staircase': 'i-ground-floor-staircase',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
