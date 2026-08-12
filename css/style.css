@@ -339,7 +339,7 @@ h1 {
 }
 
 .cat-count {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--ink-dim);
   font-variant-numeric: tabular-nums;
   margin-left: auto;
@@ -510,7 +510,7 @@ h1 {
 }
 
 .tile .label {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.15;
   color: var(--ink);
   text-align: center;
