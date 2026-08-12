@@ -895,5 +895,44 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/film-special-effects-knife-blade-out-400150/",
     "date_downloaded": "2026-08-11"
+  },
+  {
+    "id": "omen-dog",
+    "title": "Dog Bark Sound",
+    "category": "omen",
+    "tag": "Dog",
+    "file": "assets/audio/sfx/omens/dog.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-dog-bark-sound-450454/",
+    "date_downloaded": "2026-08-11"
+  },
+  {
+    "id": "omen-holy-symbol",
+    "title": "Holy Spell Cast",
+    "category": "omen",
+    "tag": "Holy Symbol",
+    "file": "assets/audio/sfx/omens/holy_symbol.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/musical-holy-spell-cast-450460/",
+    "date_downloaded": "2026-08-11"
+  },
+  {
+    "id": "omen-idol",
+    "title": "Stone Grinding Texture",
+    "category": "omen",
+    "tag": "Idol",
+    "file": "assets/audio/sfx/omens/idol.mp3",
+    "source": "Pixabay",
+    "artist": "Rson201",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-stone-grinding-texture-553813/",
+    "date_downloaded": "2026-08-11"
   }
 ]
