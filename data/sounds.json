@@ -1129,5 +1129,44 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/household-table-slam-102489/",
     "date_downloaded": "2026-08-11"
+  },
+  {
+    "id": "room-entrance-hall",
+    "title": "opening the front door",
+    "category": "room",
+    "tag": "Entrance Hall",
+    "file": "assets/audio/sfx/rooms/entrance_hall.mp3",
+    "source": "Pixabay",
+    "artist": "jongmankim8596",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-opening-the-front-door-210347/",
+    "date_downloaded": "2026-08-11"
+  },
+  {
+    "id": "room-furnace-room",
+    "title": "rusty hatch",
+    "category": "room",
+    "tag": "Furnace Room",
+    "file": "assets/audio/sfx/rooms/furnace_room.mp3",
+    "source": "Pixabay",
+    "artist": "nuncaconoci (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/household-rusty-hatch-43728/",
+    "date_downloaded": "2026-08-11"
+  },
+  {
+    "id": "room-gallery",
+    "title": "High Heels Clicking on a Hard Floor",
+    "category": "room",
+    "tag": "Gallery",
+    "file": "assets/audio/sfx/rooms/gallery.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-high-heels-clicking-on-a-hard-floor-515263/",
+    "date_downloaded": "2026-08-11"
   }
 ]
