@@ -90,6 +90,9 @@
     'Chasm': 'i-chasm',
     'Collapsed Room': 'i-collapsed-room',
     'Conservatory': 'i-conservatory',
+    'Cramped Passageway': 'i-cramped-passageway',
+    'Crawlspace': 'i-crawlspace',
+    'Dining Room': 'i-dining-room',
   };
 
   const METER_BARS = 24;
