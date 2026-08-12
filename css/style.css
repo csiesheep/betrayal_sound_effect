@@ -372,6 +372,22 @@ h1 {
   padding-top: 12px;
 }
 
+@media (max-width: 480px) {
+  .wrap {
+    padding-left: max(14px, env(safe-area-inset-left));
+    padding-right: max(14px, env(safe-area-inset-right));
+  }
+  .music-panel,
+  .cat-panel {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 10px;
+  }
+}
+
 .sound-btn {
   font-family: var(--font-body);
   background: none;
