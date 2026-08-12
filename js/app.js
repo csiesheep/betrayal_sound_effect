@@ -86,6 +86,9 @@
     'Catacombs': 'i-catacombs',
     'Chapel': 'i-chapel',
     'Charred Room': 'i-charred-room',
+    'Chasm': 'i-chasm',
+    'Collapsed Room': 'i-collapsed-room',
+    'Conservatory': 'i-conservatory',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
