@@ -973,5 +973,44 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/film-special-effects-bones-cracking-482875/",
     "date_downloaded": "2026-08-11"
+  },
+  {
+    "id": "room-armory",
+    "title": "Sharpening Blade",
+    "category": "room",
+    "tag": "Armory",
+    "file": "assets/audio/sfx/rooms/armory.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-sharpening-blade-393850/",
+    "date_downloaded": "2026-08-11"
+  },
+  {
+    "id": "room-basement-landing",
+    "title": "Basement Lightswitch",
+    "category": "room",
+    "tag": "Basement Landing",
+    "file": "assets/audio/sfx/rooms/basement_landing.mp3",
+    "source": "Pixabay",
+    "artist": "Alex_Jauk",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-basement-lightswitch-259545/",
+    "date_downloaded": "2026-08-11"
+  },
+  {
+    "id": "room-bloody-room",
+    "title": "Splat Sounds",
+    "category": "room",
+    "tag": "Bloody Room",
+    "file": "assets/audio/sfx/rooms/bloody_room.mp3",
+    "source": "Pixabay",
+    "artist": "XpMonster",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-splat-sounds-419584/",
+    "date_downloaded": "2026-08-11"
   }
 ]
