@@ -400,12 +400,25 @@
     btn.innerHTML =
       '<span class="vinyl" aria-hidden="true"></span>' +
       '<span class="track-info">' +
-        '<span class="track-title">' + escapeHtml(track.title) + '</span>' +
+        '<span class="track-title">' +
+          '<span class="track-title-track">' +
+            '<span class="track-title-copy">' + escapeHtml(track.title) + '</span>' +
+            '<span class="track-title-copy" aria-hidden="true">' + escapeHtml(track.title) + '</span>' +
+          '</span>' +
+        '</span>' +
         '<span class="track-artist">' + escapeHtml(track.artist) + '</span>' +
       '</span>' +
       '<span class="waveform track-waveform" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></span>' +
       '<span class="loop-badge">Loop</span>';
     btn.addEventListener('click', function () {
+      // Click again on the already-loaded track stops it; only one
+      // track can ever be loaded in MusicEngine at a time, so playing
+      // a different track always auto-stops whatever was playing.
+      if (MusicEngine.getCurrentId() === track.id) {
+        MusicEngine.stop();
+        hidePlayer();
+        return;
+      }
       MusicEngine.playTrack(track.id, track.file).then(function () {
         setActiveButton(track.id);
         showPlayer(track);
@@ -414,18 +427,21 @@
       });
     });
 
-    // On hover, slide a truncated title left just far enough to reveal
-    // the clipped end; titles that already fit don't move (overflow <= 0).
-    const titleEl = btn.querySelector('.track-title');
+    // On hover, loop the title within the button's own clipped viewport
+    // if it's too long to fit; titles that already fit stay still.
+    const titleOuter = btn.querySelector('.track-title');
+    const titleTrack = btn.querySelector('.track-title-track');
+    const titleCopy = titleTrack.querySelector('.track-title-copy');
     btn.addEventListener('mouseenter', function () {
-      const overflow = titleEl.scrollWidth - titleEl.clientWidth;
+      const overflow = titleCopy.scrollWidth - titleOuter.clientWidth;
       if (overflow > 0) {
-        titleEl.style.setProperty('--slide', '-' + overflow + 'px');
-        titleEl.classList.add('is-sliding');
+        const duration = Math.max(3, titleCopy.scrollWidth / 40);
+        titleTrack.style.setProperty('--marquee-duration', duration + 's');
+        titleTrack.classList.add('is-looping');
       }
     });
     btn.addEventListener('mouseleave', function () {
-      titleEl.classList.remove('is-sliding');
+      titleTrack.classList.remove('is-looping');
     });
 
     trackList.appendChild(btn);

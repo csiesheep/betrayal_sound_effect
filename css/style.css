@@ -652,15 +652,29 @@ h1 {
   font-size: 14px;
   color: var(--ink);
   overflow: hidden;
-  text-overflow: ellipsis;
   white-space: nowrap;
-  transform: translateX(0);
-  transition: transform 0.6s ease;
 }
 
-.track-title.is-sliding {
-  text-overflow: clip;
-  transform: translateX(var(--slide, 0px));
+.track-title-track {
+  display: inline-flex;
+  white-space: nowrap;
+  will-change: transform;
+}
+
+.track-title-copy {
+  padding-right: 28px;
+}
+
+.track-title-track.is-looping {
+  animation-name: marquee-loop;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: var(--marquee-duration, 8s);
+}
+
+@keyframes marquee-loop {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
 }
 
 .track-artist {
@@ -961,7 +975,8 @@ h1 {
   .playing-glow,
   .waveform span,
   .vinyl,
-  .track-btn.is-playing .vinyl {
+  .track-btn.is-playing .vinyl,
+  .track-title-track {
     animation: none !important;
   }
   .tile,
