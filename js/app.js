@@ -361,7 +361,6 @@
 
   const trackList = document.getElementById('music-tracks');
   const player = document.getElementById('music-player');
-  const toggleBtn = document.getElementById('music-toggle');
   const stopBtn = document.getElementById('music-stop');
   const nowEl = document.getElementById('music-now');
   const volumeInput = document.getElementById('music-volume');
@@ -383,8 +382,6 @@
   function showPlayer(track) {
     player.hidden = false;
     nowEl.textContent = track.title;
-    toggleBtn.classList.remove('is-paused');
-    toggleBtn.setAttribute('aria-label', 'Pause');
   }
 
   function hidePlayer() {
@@ -446,20 +443,6 @@
 
     trackList.appendChild(btn);
   });
-
-  if (toggleBtn) {
-    toggleBtn.addEventListener('click', function () {
-      if (MusicEngine.isPaused()) {
-        MusicEngine.resume().catch(function () {});
-        toggleBtn.classList.remove('is-paused');
-        toggleBtn.setAttribute('aria-label', 'Pause');
-      } else {
-        MusicEngine.pause();
-        toggleBtn.classList.add('is-paused');
-        toggleBtn.setAttribute('aria-label', 'Play');
-      }
-    });
-  }
 
   if (stopBtn) {
     stopBtn.addEventListener('click', function () {

@@ -725,7 +725,6 @@ h1 {
   display: none;
 }
 
-.music-toggle,
 .music-stop {
   background: none;
   border: 1px solid var(--line);
@@ -742,22 +741,9 @@ h1 {
   touch-action: manipulation;
 }
 
-.music-toggle svg,
 .music-stop svg {
   width: 14px;
   height: 14px;
-}
-
-.music-toggle .i-play-sm {
-  display: none;
-}
-
-.music-toggle.is-paused .i-pause {
-  display: none;
-}
-
-.music-toggle.is-paused .i-play-sm {
-  display: block;
 }
 
 .music-now {
@@ -837,7 +823,7 @@ h1 {
   align-items: flex-end;
   gap: 2px;
   height: 14px;
-  padding: 6px 0 4px;
+  margin-bottom: 20px;
 }
 
 .meter-bar {

@@ -131,10 +131,6 @@ const MusicEngine = (function () {
     });
   }
 
-  function pause() {
-    if (audio) audio.pause();
-  }
-
   function resume() {
     return audio ? audio.play() : Promise.reject(new Error('no track loaded'));
   }
@@ -157,22 +153,15 @@ const MusicEngine = (function () {
     return volume;
   }
 
-  function isPaused() {
-    return !audio || audio.paused;
-  }
-
   function getCurrentId() {
     return currentId;
   }
 
   return {
     playTrack: playTrack,
-    pause: pause,
-    resume: resume,
     stop: stop,
     setVolume: setVolume,
     getVolume: getVolume,
-    isPaused: isPaused,
     getCurrentId: getCurrentId,
   };
 })();
