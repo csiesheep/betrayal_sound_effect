@@ -724,10 +724,11 @@ h1 {
   align-items: center;
   gap: 8px;
   flex: none;
+  visibility: hidden;
 }
 
-.music-player[hidden] {
-  display: none;
+.music-player.is-active {
+  visibility: visible;
 }
 
 .music-stop {

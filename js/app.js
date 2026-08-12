@@ -380,12 +380,12 @@
   }
 
   function showPlayer(track) {
-    player.hidden = false;
+    player.classList.add('is-active');
     nowEl.textContent = track.title;
   }
 
   function hidePlayer() {
-    player.hidden = true;
+    player.classList.remove('is-active');
     setActiveButton(null);
   }
 
