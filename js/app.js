@@ -403,6 +403,7 @@
         '<span class="track-title">' + escapeHtml(track.title) + '</span>' +
         '<span class="track-artist">' + escapeHtml(track.artist) + '</span>' +
       '</span>' +
+      '<span class="waveform track-waveform" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></span>' +
       '<span class="loop-badge">Loop</span>';
     btn.addEventListener('click', function () {
       MusicEngine.playTrack(track.id, track.file).then(function () {
