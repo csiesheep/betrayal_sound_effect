@@ -83,6 +83,9 @@
     'Armory': 'i-armory',
     'Basement Landing': 'i-basement-landing',
     'Bloody Room': 'i-bloody-room',
+    'Catacombs': 'i-catacombs',
+    'Chapel': 'i-chapel',
+    'Charred Room': 'i-charred-room',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
