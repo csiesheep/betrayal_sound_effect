@@ -934,5 +934,44 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/film-special-effects-stone-grinding-texture-553813/",
     "date_downloaded": "2026-08-11"
+  },
+  {
+    "id": "omen-mask",
+    "title": "Particle Mask Breath Through Mouth",
+    "category": "omen",
+    "tag": "Mask",
+    "file": "assets/audio/sfx/omens/mask.mp3",
+    "source": "Pixabay",
+    "artist": "PapercutterJohn (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/horror-particle-mask-breath-through-mouth-103531/",
+    "date_downloaded": "2026-08-11"
+  },
+  {
+    "id": "omen-ring",
+    "title": "dropping of the ring",
+    "category": "omen",
+    "tag": "Ring",
+    "file": "assets/audio/sfx/omens/ring.mp3",
+    "source": "Pixabay",
+    "artist": "Prmodrai",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-dropping-of-the-ring-404874/",
+    "date_downloaded": "2026-08-11"
+  },
+  {
+    "id": "omen-skull",
+    "title": "Bones Cracking",
+    "category": "omen",
+    "tag": "Skull",
+    "file": "assets/audio/sfx/omens/skull.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-bones-cracking-482875/",
+    "date_downloaded": "2026-08-11"
   }
 ]
