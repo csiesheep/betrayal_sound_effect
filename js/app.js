@@ -81,6 +81,15 @@
     'Mask': 'i-mask',
     'Ring': 'i-ring',
     'Skull': 'i-omen-skull',
+    'Armory': 'i-armory',
+    'Basement Landing': 'i-basement-landing',
+    'Bloody Room': 'i-bloody-room',
+    'Catacombs': 'i-catacombs',
+    'Chapel': 'i-chapel',
+    'Charred Room': 'i-charred-room',
+    'Chasm': 'i-chasm',
+    'Collapsed Room': 'i-collapsed-room',
+    'Conservatory': 'i-conservatory',
   };
 
   const METER_BARS = 24;
