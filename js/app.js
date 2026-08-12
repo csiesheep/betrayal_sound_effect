@@ -413,6 +413,21 @@
         hidePlayer();
       });
     });
+
+    // On hover, slide a truncated title left just far enough to reveal
+    // the clipped end; titles that already fit don't move (overflow <= 0).
+    const titleEl = btn.querySelector('.track-title');
+    btn.addEventListener('mouseenter', function () {
+      const overflow = titleEl.scrollWidth - titleEl.clientWidth;
+      if (overflow > 0) {
+        titleEl.style.setProperty('--slide', '-' + overflow + 'px');
+        titleEl.classList.add('is-sliding');
+      }
+    });
+    btn.addEventListener('mouseleave', function () {
+      titleEl.classList.remove('is-sliding');
+    });
+
     trackList.appendChild(btn);
   });
 

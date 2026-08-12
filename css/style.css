@@ -576,6 +576,8 @@ h1 {
   gap: 10px;
   text-align: left;
   width: 100%;
+  min-width: 0;
+  height: 64px;
   touch-action: manipulation;
   transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.12s ease;
 }
@@ -584,7 +586,9 @@ h1 {
   .track-btn {
     flex-direction: column;
     align-items: flex-start;
+    justify-content: center;
     gap: 8px;
+    height: 96px;
   }
 }
 
@@ -640,6 +644,7 @@ h1 {
 .track-btn .track-info {
   flex: 1;
   min-width: 0;
+  width: 100%;
 }
 
 .track-title {
@@ -649,6 +654,13 @@ h1 {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  transform: translateX(0);
+  transition: transform 0.6s ease;
+}
+
+.track-title.is-sliding {
+  text-overflow: clip;
+  transform: translateX(var(--slide, 0px));
 }
 
 .track-artist {
