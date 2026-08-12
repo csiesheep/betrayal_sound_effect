@@ -1168,5 +1168,44 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/film-special-effects-high-heels-clicking-on-a-hard-floor-515263/",
     "date_downloaded": "2026-08-11"
+  },
+  {
+    "id": "room-game-room",
+    "title": "Riffle Card Shuffle",
+    "category": "room",
+    "tag": "Game Room",
+    "file": "assets/audio/sfx/rooms/game_room.mp3",
+    "source": "Pixabay",
+    "artist": "Kodack (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-riffle-card-shuffle-104313/",
+    "date_downloaded": "2026-08-11"
+  },
+  {
+    "id": "room-graveyard",
+    "title": "Creepy Crow Caw",
+    "category": "room",
+    "tag": "Graveyard",
+    "file": "assets/audio/sfx/rooms/graveyard.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/nature-creepy-crow-caw-322991/",
+    "date_downloaded": "2026-08-11"
+  },
+  {
+    "id": "room-ground-floor-staircase",
+    "title": "Creaking Wooden floor footsteps",
+    "category": "room",
+    "tag": "Ground Floor Staircase",
+    "file": "assets/audio/sfx/rooms/ground_floor_staircase.mp3",
+    "source": "Pixabay",
+    "artist": "OxidVideos",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/household-creaking-wooden-floor-footsteps-410804/",
+    "date_downloaded": "2026-08-11"
   }
 ]
