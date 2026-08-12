@@ -96,6 +96,9 @@
     'Entrance Hall': 'i-entrance-hall',
     'Furnace Room': 'i-furnace-room',
     'Gallery': 'i-gallery',
+    'Game Room': 'i-game-room',
+    'Graveyard': 'i-graveyard',
+    'Ground Floor Staircase': 'i-ground-floor-staircase',
   };
 
   const METER_BARS = 24;
