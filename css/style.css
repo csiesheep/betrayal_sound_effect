@@ -128,29 +128,22 @@ h1 {
   color: var(--ink);
 }
 
-.section-hint {
-  margin: 6px 0 0;
-  font-size: 13px;
-  color: var(--ink-dim);
-  line-height: 1.5;
-  font-style: italic;
-}
-
 /* ---------- Panels: shared gothic frame + corner brackets ---------- */
 
 .music-panel,
 .cat-panel {
   position: relative;
+  padding: 18px 20px 20px;
+  margin-bottom: 20px;
+}
+
+.cat-panel {
   background: linear-gradient(180deg, var(--panel-raised), var(--panel));
   border: 1px solid var(--line);
   border-radius: 4px;
-  padding: 18px 20px 20px;
-  margin-bottom: 20px;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03), 0 8px 24px rgba(0, 0, 0, 0.35);
 }
 
-.music-panel::before,
-.music-panel::after,
 .cat-panel::before,
 .cat-panel::after,
 .cat-panel .cat-head::before,
@@ -163,25 +156,18 @@ h1 {
   pointer-events: none;
 }
 
-.music-panel::before,
 .cat-panel::before {
   top: 6px;
   left: 6px;
-  border-top: 2px solid var(--gold-dim);
-  border-left: 2px solid var(--gold-dim);
+  border-top: 2px solid var(--amber-dim);
+  border-left: 2px solid var(--amber-dim);
 }
 
-.music-panel::after,
 .cat-panel::after {
   bottom: 6px;
   right: 6px;
-  border-bottom: 2px solid var(--gold-dim);
-  border-right: 2px solid var(--gold-dim);
-}
-
-.cat-panel::before,
-.cat-panel::after {
-  border-color: var(--amber-dim);
+  border-bottom: 2px solid var(--amber-dim);
+  border-right: 2px solid var(--amber-dim);
 }
 
 /* ---------- Category tabs + search ---------- */
@@ -566,8 +552,8 @@ h1 {
 .track-btn {
   position: relative;
   font-family: var(--font-body);
-  background: var(--void);
-  border: 1px solid var(--line);
+  background: linear-gradient(180deg, var(--amber-glow), var(--void) 70%);
+  border: 1px solid var(--amber-dim);
   border-radius: 4px;
   padding: 12px 12px 12px 14px;
   color: inherit;
@@ -830,7 +816,7 @@ h1 {
   align-items: flex-end;
   gap: 2px;
   height: 14px;
-  margin-bottom: 20px;
+  padding: 6px 0 4px;
 }
 
 .meter-bar {
