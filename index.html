@@ -27,18 +27,20 @@
     <div class="meter" id="sfx-meter" aria-hidden="true"></div>
 
     <section class="music-panel" aria-label="Background Score">
-      <h2 class="section-title">Background Score</h2>
+      <div class="music-panel-head">
+        <h2 class="section-title">Background Score</h2>
+        <div class="music-player" id="music-player" hidden>
+          <span class="music-now sr-only" id="music-now"></span>
+          <svg class="music-vol-icon" aria-hidden="true"><use href="#i-volume"></use></svg>
+          <input type="range" class="music-volume" id="music-volume" min="0" max="1" step="0.01" value="0.5" aria-label="Music volume">
+          <button type="button" class="music-stop" id="music-stop" aria-label="Stop music">
+            <svg><use href="#i-close"></use></svg>
+          </button>
+        </div>
+      </div>
       <p class="section-hint">Pick a track to loop quietly under your session.</p>
       <div class="music-tracks" id="music-tracks">
         <!-- rendered by js/app.js from data/music.json -->
-      </div>
-      <div class="music-player" id="music-player" hidden>
-        <span class="music-now" id="music-now"></span>
-        <svg class="music-vol-icon" aria-hidden="true"><use href="#i-volume"></use></svg>
-        <input type="range" class="music-volume" id="music-volume" min="0" max="1" step="0.01" value="0.5" aria-label="Music volume">
-        <button type="button" class="music-stop" id="music-stop" aria-label="Stop music">
-          <svg><use href="#i-close"></use></svg>
-        </button>
       </div>
     </section>
 
