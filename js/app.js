@@ -80,6 +80,9 @@
     'Mask': 'i-mask',
     'Ring': 'i-ring',
     'Skull': 'i-omen-skull',
+    'Armory': 'i-armory',
+    'Basement Landing': 'i-basement-landing',
+    'Bloody Room': 'i-bloody-room',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
