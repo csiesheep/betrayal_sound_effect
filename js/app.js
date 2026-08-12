@@ -177,9 +177,9 @@
         '<span class="tile">' +
           '<svg><use href="#' + iconId + '"></use></svg>' +
           (sourced ? '<span class="waveform"><span></span><span></span><span></span><span></span><span></span></span>' : '') +
-        '</span>' +
-        '<span class="label">' + escapeHtml(name) +
-          (sourced ? '' : '<span class="needs-art">needs art</span>') +
+          '<span class="label">' + escapeHtml(name) +
+            (sourced ? '' : '<span class="needs-art sr-only">needs art</span>') +
+          '</span>' +
         '</span>';
 
       if (sourced) {

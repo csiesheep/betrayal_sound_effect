@@ -84,6 +84,7 @@ header.hero {
 .brand {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 10px;
 }
 
@@ -101,33 +102,20 @@ h1 {
   letter-spacing: 0.03em;
   margin: 0;
   text-wrap: balance;
+  text-align: center;
   color: var(--ink);
   text-shadow: 0 0 12px var(--blood-glow), 0 2px 0 rgba(0, 0, 0, 0.6);
   animation: flicker 6s ease-in-out infinite;
+}
+
+.title-accent {
+  color: var(--blood-bright);
 }
 
 @keyframes flicker {
   0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% { opacity: 1; }
   20%, 24%, 55% { opacity: 0.55; }
   22% { opacity: 0.85; }
-}
-
-.tagline {
-  margin: 10px 0 0;
-  color: var(--ink-dim);
-  font-size: 15px;
-  line-height: 1.6;
-  max-width: 46ch;
-  font-style: italic;
-}
-
-.disclaimer {
-  margin: 16px 0 0;
-  font-size: 11.5px;
-  color: var(--ink-dim);
-  opacity: 0.75;
-  line-height: 1.6;
-  max-width: 52ch;
 }
 
 .section-title {
@@ -401,10 +389,8 @@ h1 {
   padding: 0;
   color: inherit;
   cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
+  display: block;
+  width: 100%;
   text-align: center;
   touch-action: manipulation;
 }
@@ -418,8 +404,11 @@ h1 {
   aspect-ratio: 1;
   border-radius: 6px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 3px;
+  padding: 8% 6%;
   position: relative;
   background: var(--void);
   border: 1px solid var(--line);
@@ -428,8 +417,9 @@ h1 {
 }
 
 .tile svg {
-  width: 72%;
-  height: 72%;
+  width: 46%;
+  height: 46%;
+  flex: none;
   color: var(--icon);
 }
 
@@ -527,23 +517,25 @@ h1 {
   cursor: default;
 }
 
-.label {
-  font-size: 13px;
-  line-height: 1.3;
+.tile .waveform {
+  position: static;
+  height: 6px;
+}
+
+.tile .label {
+  font-size: 9.5px;
+  line-height: 1.15;
   color: var(--ink);
+  text-align: center;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  padding: 0 2px;
 }
 
-.sound-btn[data-sourced="false"] .label {
+.sound-btn[data-sourced="false"] .tile .label {
   color: var(--ink-dim);
-}
-
-.needs-art {
-  display: block;
-  font-size: 10.5px;
-  color: var(--ink-dim);
-  opacity: 0.7;
-  margin-top: 1px;
-  font-style: italic;
 }
 
 /* ---------- Background Music panel: gold accent scope ---------- */
