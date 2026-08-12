@@ -2,7 +2,8 @@
 // list per category) cross-referenced against data/sounds.json (what's
 // actually been sourced). Entries with a matching sound get a custom
 // icon + real playback; everything else shows the "needs art" dashed
-// placeholder from the approved design.
+// placeholder from the approved design. Category tabs + search filter
+// which sound buttons are visible; nothing is re-rendered on filter.
 (async function () {
   const ICONS = {
     'Flashlight': 'i-flashlight',
@@ -82,6 +83,8 @@
     'Skull': 'i-omen-skull',
   };
 
+  const METER_BARS = 24;
+
   const [catalogRes, soundsRes] = await Promise.all([
     fetch('data/catalog.json'),
     fetch('data/sounds.json'),
@@ -95,6 +98,14 @@
   const container = document.getElementById('categories');
   const chips = document.getElementById('chips');
   const mixerEmpty = document.getElementById('mixer-empty');
+  const tabsEl = document.getElementById('category-tabs');
+  const searchInput = document.getElementById('search-input');
+  const searchClear = document.getElementById('search-clear');
+  const noResults = document.getElementById('no-results');
+  const noResultsTerm = document.getElementById('no-results-term');
+  const stopAllBtn = document.getElementById('stop-all');
+  const sfxVolumeInput = document.getElementById('sfx-volume');
+  const meterEl = document.getElementById('sfx-meter');
 
   function escapeHtml(s) {
     const div = document.createElement('div');
@@ -105,6 +116,7 @@
   function refreshEmpty() {
     const hasChips = chips.querySelector('.chip');
     if (mixerEmpty) mixerEmpty.style.display = hasChips ? 'none' : 'block';
+    if (stopAllBtn) stopAllBtn.classList.toggle('is-visible', !!hasChips);
   }
 
   function removeChip(name) {
@@ -127,25 +139,25 @@
     refreshEmpty();
   }
 
-  catalog.categories.forEach(function (cat, idx) {
+  // ---------- Category panels (always rendered; tabs + search toggle visibility) ----------
+
+  const panels = [];
+
+  catalog.categories.forEach(function (cat) {
     const sourcedCount = cat.entries.filter(function (name) { return byTag.has(name); }).length;
 
-    const details = document.createElement('details');
-    details.className = 'category';
-    if (idx === 0) details.open = true;
+    const panel = document.createElement('section');
+    panel.className = 'cat-panel';
+    panel.setAttribute('data-cat-id', cat.id);
 
-    const summary = document.createElement('summary');
-    summary.className = 'cat-head';
-    summary.innerHTML =
+    const head = document.createElement('div');
+    head.className = 'cat-head';
+    head.innerHTML =
       '<svg class="cat-icon"><use href="#' + (cat.icon || 'i-placeholder') + '"></use></svg>' +
       '<span class="cat-name">' + escapeHtml(cat.name) + '</span>' +
-      '<span class="cat-count">' + sourcedCount + ' of ' + cat.entries.length + ' sourced</span>' +
-      '<span class="cat-spacer"></span>' +
-      '<svg class="chevron"><use href="#i-chevron"></use></svg>';
-    details.appendChild(summary);
+      '<span class="cat-count">' + sourcedCount + ' of ' + cat.entries.length + ' sourced</span>';
+    panel.appendChild(head);
 
-    const body = document.createElement('div');
-    body.className = 'cat-body';
     const grid = document.createElement('div');
     grid.className = 'grid';
 
@@ -164,7 +176,7 @@
       btn.innerHTML =
         '<span class="tile">' +
           '<svg><use href="#' + iconId + '"></use></svg>' +
-          (sourced ? '<span class="play-badge"><svg><use href="#i-play"></use></svg></span>' : '') +
+          (sourced ? '<span class="waveform"><span></span><span></span><span></span><span></span><span></span></span>' : '') +
         '</span>' +
         '<span class="label">' + escapeHtml(name) +
           (sourced ? '' : '<span class="needs-art">needs art</span>') +
@@ -179,6 +191,7 @@
               removeChip(name);
             });
             addChip(name);
+            startMeter();
           } else {
             removeChip(name);
           }
@@ -188,10 +201,153 @@
       grid.appendChild(btn);
     });
 
-    body.appendChild(grid);
-    details.appendChild(body);
-    container.appendChild(details);
+    panel.appendChild(grid);
+    container.appendChild(panel);
+    panels.push(panel);
   });
+
+  // ---------- Category tabs ----------
+
+  let activeTab = 'all';
+
+  const tabDefs = [{ id: 'all', name: 'All' }].concat(
+    catalog.categories.map(function (c) { return { id: c.id, name: c.name }; })
+  );
+
+  tabDefs.forEach(function (t) {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'tab-btn';
+    btn.setAttribute('role', 'tab');
+    btn.setAttribute('data-tab-id', t.id);
+    btn.textContent = t.name;
+    if (t.id === 'all') btn.classList.add('is-active');
+    btn.addEventListener('click', function () {
+      activeTab = t.id;
+      tabsEl.querySelectorAll('.tab-btn').forEach(function (b) {
+        b.classList.toggle('is-active', b.getAttribute('data-tab-id') === t.id);
+      });
+      applyFilters();
+    });
+    tabsEl.appendChild(btn);
+  });
+
+  // ---------- Search ----------
+
+  function applyFilters() {
+    const term = searchInput.value.trim().toLowerCase();
+    let anyVisible = false;
+
+    panels.forEach(function (panel) {
+      const catId = panel.getAttribute('data-cat-id');
+      const tabMatches = activeTab === 'all' || activeTab === catId;
+      let panelHasVisible = false;
+
+      panel.querySelectorAll('.sound-btn').forEach(function (btn) {
+        if (!tabMatches) {
+          btn.hidden = true;
+          return;
+        }
+        const name = btn.getAttribute('data-name').toLowerCase();
+        const match = !term || name.indexOf(term) !== -1;
+        btn.hidden = !match;
+        if (match) panelHasVisible = true;
+      });
+
+      panel.hidden = !tabMatches || !panelHasVisible;
+      if (!panel.hidden) anyVisible = true;
+    });
+
+    noResults.hidden = anyVisible;
+    if (!anyVisible && noResultsTerm) noResultsTerm.textContent = searchInput.value.trim();
+  }
+
+  if (searchInput) {
+    searchInput.addEventListener('input', function () {
+      searchClear.hidden = !searchInput.value;
+      applyFilters();
+    });
+  }
+
+  if (searchClear) {
+    searchClear.addEventListener('click', function () {
+      searchInput.value = '';
+      searchClear.hidden = true;
+      applyFilters();
+      searchInput.focus();
+    });
+  }
+
+  applyFilters();
+
+  // ---------- Stop All ----------
+
+  if (stopAllBtn) {
+    stopAllBtn.addEventListener('click', function () {
+      AudioEngine.stopAll();
+      container.querySelectorAll('.sound-btn.is-playing').forEach(function (btn) {
+        btn.classList.remove('is-playing');
+      });
+      chips.querySelectorAll('.chip').forEach(function (chip) { chip.remove(); });
+      refreshEmpty();
+    });
+  }
+
+  // ---------- SFX master volume ----------
+
+  if (sfxVolumeInput) {
+    sfxVolumeInput.value = AudioEngine.getVolume();
+    sfxVolumeInput.addEventListener('input', function () {
+      AudioEngine.setVolume(parseFloat(sfxVolumeInput.value));
+    });
+  }
+
+  // ---------- Live VU meter ----------
+
+  let meterRunning = false;
+  let meterBars = [];
+
+  if (meterEl) {
+    for (let i = 0; i < METER_BARS; i++) {
+      const bar = document.createElement('span');
+      bar.className = 'meter-bar';
+      meterEl.appendChild(bar);
+      meterBars.push(bar);
+    }
+  }
+
+  function levelColor(v) {
+    // Interpolates blood-dim (#5a1010) -> blood-bright (#c81e1e) by level.
+    const from = [0x5a, 0x10, 0x10];
+    const to = [0xc8, 0x1e, 0x1e];
+    const t = Math.min(1, v * 1.6);
+    const rgb = from.map(function (c, i) { return Math.round(c + (to[i] - c) * t); });
+    return 'rgb(' + rgb.join(',') + ')';
+  }
+
+  function meterTick() {
+    if (!AudioEngine.hasActive()) {
+      meterRunning = false;
+      meterBars.forEach(function (bar) {
+        bar.style.height = '15%';
+        bar.style.background = '';
+      });
+      return;
+    }
+    const levels = AudioEngine.getLevels(meterBars.length);
+    levels.forEach(function (v, i) {
+      const bar = meterBars[i];
+      bar.style.height = Math.max(15, Math.round(v * 100)) + '%';
+      bar.style.background = levelColor(v);
+    });
+    requestAnimationFrame(meterTick);
+  }
+
+  function startMeter() {
+    if (meterRunning || !meterEl) return;
+    meterRunning = true;
+    requestAnimationFrame(meterTick);
+  }
 
   refreshEmpty();
 })();
@@ -242,11 +398,12 @@
     btn.className = 'track-btn';
     btn.setAttribute('data-id', track.id);
     btn.innerHTML =
-      '<svg class="track-icon"><use href="#i-play"></use></svg>' +
+      '<span class="vinyl" aria-hidden="true"></span>' +
       '<span class="track-info">' +
         '<span class="track-title">' + escapeHtml(track.title) + '</span>' +
         '<span class="track-artist">' + escapeHtml(track.artist) + '</span>' +
-      '</span>';
+      '</span>' +
+      '<span class="loop-badge">Loop</span>';
     btn.addEventListener('click', function () {
       MusicEngine.playTrack(track.id, track.file).then(function () {
         setActiveButton(track.id);
