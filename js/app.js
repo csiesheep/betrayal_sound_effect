@@ -93,6 +93,9 @@
     'Cramped Passageway': 'i-cramped-passageway',
     'Crawlspace': 'i-crawlspace',
     'Dining Room': 'i-dining-room',
+    'Entrance Hall': 'i-entrance-hall',
+    'Furnace Room': 'i-furnace-room',
+    'Gallery': 'i-gallery',
   };
 
   const METER_BARS = 24;
