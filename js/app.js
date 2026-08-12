@@ -106,7 +106,6 @@
 
   const container = document.getElementById('categories');
   const chips = document.getElementById('chips');
-  const mixerEmpty = document.getElementById('mixer-empty');
   const tabsEl = document.getElementById('category-tabs');
   const searchInput = document.getElementById('search-input');
   const searchClear = document.getElementById('search-clear');
@@ -122,9 +121,8 @@
     return div.innerHTML;
   }
 
-  function refreshEmpty() {
+  function refreshStopAll() {
     const hasChips = chips.querySelector('.chip');
-    if (mixerEmpty) mixerEmpty.style.display = hasChips ? 'none' : 'block';
     if (stopAllBtn) stopAllBtn.classList.toggle('is-visible', !!hasChips);
   }
 
@@ -134,7 +132,7 @@
     const btn = container.querySelector('.sound-btn[data-name="' + CSS.escape(name) + '"]');
     if (btn) btn.classList.remove('is-playing');
     AudioEngine.stop(name);
-    refreshEmpty();
+    refreshStopAll();
   }
 
   function addChip(name) {
@@ -145,7 +143,7 @@
       '<button type="button" aria-label="Stop ' + escapeHtml(name) + '"><svg><use href="#i-close"></use></svg></button>';
     chip.querySelector('button').addEventListener('click', function () { removeChip(name); });
     chips.appendChild(chip);
-    refreshEmpty();
+    refreshStopAll();
   }
 
   // ---------- Category panels (always rendered; tabs + search toggle visibility) ----------
@@ -298,7 +296,7 @@
         btn.classList.remove('is-playing');
       });
       chips.querySelectorAll('.chip').forEach(function (chip) { chip.remove(); });
-      refreshEmpty();
+      refreshStopAll();
     });
   }
 
@@ -358,7 +356,7 @@
     requestAnimationFrame(meterTick);
   }
 
-  refreshEmpty();
+  refreshStopAll();
 })();
 
 // Background music panel: fetches data/music.json, renders the track
@@ -404,7 +402,7 @@
     btn.className = 'track-btn';
     btn.setAttribute('data-id', track.id);
     btn.innerHTML =
-      '<span class="vinyl" aria-hidden="true"></span>' +
+      '<span class="vinyl" aria-hidden="true">𝄞</span>' +
       '<span class="track-info">' +
         '<span class="track-title">' +
           '<span class="track-title-track">' +
