@@ -77,6 +77,9 @@
     'Dog': 'i-dog',
     'Holy Symbol': 'i-holy-symbol',
     'Idol': 'i-idol',
+    'Mask': 'i-mask',
+    'Ring': 'i-ring',
+    'Skull': 'i-omen-skull',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
