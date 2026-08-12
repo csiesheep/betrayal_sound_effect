@@ -1051,5 +1051,44 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/film-special-effects-metal-tink-when-cooling-411697/",
     "date_downloaded": "2026-08-11"
+  },
+  {
+    "id": "room-chasm",
+    "title": "Haunting Wind",
+    "category": "room",
+    "tag": "Chasm",
+    "file": "assets/audio/sfx/rooms/chasm.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/horror-haunting-wind-515270/",
+    "date_downloaded": "2026-08-11"
+  },
+  {
+    "id": "room-collapsed-room",
+    "title": "Explosion with Debris",
+    "category": "room",
+    "tag": "Collapsed Room",
+    "file": "assets/audio/sfx/rooms/collapsed_room.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/horror-explosion-with-debris-494320/",
+    "date_downloaded": "2026-08-11"
+  },
+  {
+    "id": "room-conservatory",
+    "title": "Bird Chirps (Short)",
+    "category": "room",
+    "tag": "Conservatory",
+    "file": "assets/audio/sfx/rooms/conservatory.mp3",
+    "source": "Pixabay",
+    "artist": "loswin23",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/nature-bird-chirps-short-577036/",
+    "date_downloaded": "2026-08-11"
   }
 ]
