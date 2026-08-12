@@ -74,6 +74,9 @@
     'Armor': 'i-armor',
     'Book': 'i-book',
     'Dagger': 'i-dagger',
+    'Dog': 'i-dog',
+    'Holy Symbol': 'i-holy-symbol',
+    'Idol': 'i-idol',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
