@@ -92,8 +92,6 @@
     'Conservatory': 'i-conservatory',
   };
 
-  const METER_BARS = 24;
-
   const [catalogRes, soundsRes] = await Promise.all([
     fetch('data/catalog.json'),
     fetch('data/sounds.json'),
@@ -105,45 +103,16 @@
   sounds.forEach(function (s) { byTag.set(s.tag, s); });
 
   const container = document.getElementById('categories');
-  const chips = document.getElementById('chips');
   const tabsEl = document.getElementById('category-tabs');
   const searchInput = document.getElementById('search-input');
   const searchClear = document.getElementById('search-clear');
   const noResults = document.getElementById('no-results');
   const noResultsTerm = document.getElementById('no-results-term');
-  const stopAllBtn = document.getElementById('stop-all');
-  const sfxVolumeInput = document.getElementById('sfx-volume');
-  const meterEl = document.getElementById('sfx-meter');
 
   function escapeHtml(s) {
     const div = document.createElement('div');
     div.textContent = s;
     return div.innerHTML;
-  }
-
-  function refreshStopAll() {
-    const hasChips = chips.querySelector('.chip');
-    if (stopAllBtn) stopAllBtn.classList.toggle('is-visible', !!hasChips);
-  }
-
-  function removeChip(name) {
-    const chip = chips.querySelector('[data-chip="' + CSS.escape(name) + '"]');
-    if (chip) chip.remove();
-    const btn = container.querySelector('.sound-btn[data-name="' + CSS.escape(name) + '"]');
-    if (btn) btn.classList.remove('is-playing');
-    AudioEngine.stop(name);
-    refreshStopAll();
-  }
-
-  function addChip(name) {
-    const chip = document.createElement('span');
-    chip.className = 'chip';
-    chip.setAttribute('data-chip', name);
-    chip.innerHTML = escapeHtml(name) +
-      '<button type="button" aria-label="Stop ' + escapeHtml(name) + '"><svg><use href="#i-close"></use></svg></button>';
-    chip.querySelector('button').addEventListener('click', function () { removeChip(name); });
-    chips.appendChild(chip);
-    refreshStopAll();
   }
 
   // ---------- Category panels (always rendered; tabs + search toggle visibility) ----------
@@ -195,12 +164,9 @@
           if (playing) {
             AudioEngine.play(name, sound.file, function () {
               btn.classList.remove('is-playing');
-              removeChip(name);
             });
-            addChip(name);
-            startMeter();
           } else {
-            removeChip(name);
+            AudioEngine.stop(name);
           }
         });
       }
@@ -286,77 +252,6 @@
   }
 
   applyFilters();
-
-  // ---------- Stop All ----------
-
-  if (stopAllBtn) {
-    stopAllBtn.addEventListener('click', function () {
-      AudioEngine.stopAll();
-      container.querySelectorAll('.sound-btn.is-playing').forEach(function (btn) {
-        btn.classList.remove('is-playing');
-      });
-      chips.querySelectorAll('.chip').forEach(function (chip) { chip.remove(); });
-      refreshStopAll();
-    });
-  }
-
-  // ---------- SFX master volume ----------
-
-  if (sfxVolumeInput) {
-    sfxVolumeInput.value = AudioEngine.getVolume();
-    sfxVolumeInput.addEventListener('input', function () {
-      AudioEngine.setVolume(parseFloat(sfxVolumeInput.value));
-    });
-  }
-
-  // ---------- Live VU meter ----------
-
-  let meterRunning = false;
-  let meterBars = [];
-
-  if (meterEl) {
-    for (let i = 0; i < METER_BARS; i++) {
-      const bar = document.createElement('span');
-      bar.className = 'meter-bar';
-      meterEl.appendChild(bar);
-      meterBars.push(bar);
-    }
-  }
-
-  function levelColor(v) {
-    // Interpolates blood-dim (#5a1010) -> blood-bright (#c81e1e) by level.
-    const from = [0x5a, 0x10, 0x10];
-    const to = [0xc8, 0x1e, 0x1e];
-    const t = Math.min(1, v * 1.6);
-    const rgb = from.map(function (c, i) { return Math.round(c + (to[i] - c) * t); });
-    return 'rgb(' + rgb.join(',') + ')';
-  }
-
-  function meterTick() {
-    if (!AudioEngine.hasActive()) {
-      meterRunning = false;
-      meterBars.forEach(function (bar) {
-        bar.style.height = '15%';
-        bar.style.background = '';
-      });
-      return;
-    }
-    const levels = AudioEngine.getLevels(meterBars.length);
-    levels.forEach(function (v, i) {
-      const bar = meterBars[i];
-      bar.style.height = Math.max(15, Math.round(v * 100)) + '%';
-      bar.style.background = levelColor(v);
-    });
-    requestAnimationFrame(meterTick);
-  }
-
-  function startMeter() {
-    if (meterRunning || !meterEl) return;
-    meterRunning = true;
-    requestAnimationFrame(meterTick);
-  }
-
-  refreshStopAll();
 })();
 
 // Background music panel: fetches data/music.json, renders the track

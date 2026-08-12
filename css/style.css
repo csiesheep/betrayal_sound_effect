@@ -53,7 +53,7 @@ body {
     radial-gradient(ellipse 80% 60% at 50% -10%, rgba(139, 0, 0, 0.12), transparent 60%),
     radial-gradient(ellipse 120% 90% at 50% 50%, #0d0710 0%, var(--void) 70%);
   min-height: 100vh;
-  padding: 0 0 max(96px, calc(88px + env(safe-area-inset-bottom)));
+  padding: 0 0 max(32px, env(safe-area-inset-bottom));
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -756,8 +756,7 @@ h1 {
   white-space: nowrap;
 }
 
-.music-vol-icon,
-.sfx-vol-icon {
+.music-vol-icon {
   width: 15px;
   height: 15px;
   color: var(--ink-dim);
@@ -804,113 +803,6 @@ h1 {
 
 .credits-list .credit-title {
   color: var(--ink);
-}
-
-/* ---------- Mixer tray: VU meter, chips, SFX volume, Stop All ---------- */
-
-.mixer-tray {
-  position: sticky;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: linear-gradient(180deg, var(--panel-raised), var(--void));
-  border-top: 1px solid var(--line);
-  padding: 0 max(20px, env(safe-area-inset-left)) max(10px, env(safe-area-inset-bottom)) max(20px, env(safe-area-inset-right));
-}
-
-.meter {
-  display: flex;
-  align-items: flex-end;
-  gap: 2px;
-  height: 14px;
-  padding: 6px 0 4px;
-}
-
-.meter-bar {
-  flex: 1;
-  height: 15%;
-  min-height: 2px;
-  background: var(--blood-dim);
-  border-radius: 1px;
-  transition: height 0.05s linear, background 0.05s linear;
-}
-
-.mixer-row {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  min-height: 40px;
-  padding: 6px 0;
-}
-
-.chips {
-  display: flex;
-  gap: 8px;
-  overflow-x: auto;
-  flex: 1;
-}
-
-.chip {
-  flex: none;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  background: var(--void);
-  border: 1px solid var(--blood-dim);
-  border-radius: 999px;
-  padding: 5px 10px 5px 12px;
-  font-size: 12.5px;
-  color: var(--ink);
-  white-space: nowrap;
-}
-
-.chip button {
-  background: none;
-  border: none;
-  color: var(--ink-dim);
-  cursor: pointer;
-  padding: 2px;
-  display: flex;
-  touch-action: manipulation;
-}
-
-.chip button svg {
-  width: 11px;
-  height: 11px;
-}
-
-.sfx-volume {
-  width: 70px;
-  accent-color: var(--blood-bright);
-  flex: none;
-}
-
-.stop-all {
-  font-family: var(--font-heading);
-  font-size: 11.5px;
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  flex: none;
-  min-height: 36px;
-  padding: 0 14px;
-  background: var(--blood-dim);
-  color: var(--ink);
-  border: 1px solid var(--blood-bright);
-  border-radius: 3px;
-  cursor: pointer;
-  touch-action: manipulation;
-  visibility: hidden;
-}
-
-.stop-all.is-visible {
-  visibility: visible;
-}
-
-@media (hover: hover) {
-  .stop-all:hover {
-    background: var(--blood);
-  }
 }
 
 @media (min-width: 640px) {
