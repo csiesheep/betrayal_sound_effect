@@ -1246,5 +1246,44 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/film-special-effects-footsteps-in-hallway-80436/",
     "date_downloaded": "2026-08-12"
+  },
+  {
+    "id": "room-junk-room",
+    "title": "Stuff knocking over 2",
+    "category": "room",
+    "tag": "Junk Room",
+    "file": "assets/audio/sfx/rooms/junk_room.mp3",
+    "source": "Pixabay",
+    "artist": "bigmanjoe (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/household-stuff-knocking-over-2-102927/",
+    "date_downloaded": "2026-08-12"
+  },
+  {
+    "id": "room-kitchen",
+    "title": "Kitchen cutlery",
+    "category": "room",
+    "tag": "Kitchen",
+    "file": "assets/audio/sfx/rooms/kitchen.mp3",
+    "source": "Pixabay",
+    "artist": "Caitlin_100 (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/household-kitchen-cutlery-81287/",
+    "date_downloaded": "2026-08-12"
+  },
+  {
+    "id": "room-laboratory",
+    "title": "R2D2 laboratory sf",
+    "category": "room",
+    "tag": "Laboratory",
+    "file": "assets/audio/sfx/rooms/laboratory.mp3",
+    "source": "Pixabay",
+    "artist": "blukotek (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-r2d2-laboratory-sf-84779/",
+    "date_downloaded": "2026-08-12"
   }
 ]
