@@ -114,6 +114,9 @@
     'Operating Theatre': 'i-operating-theatre',
     'Organ Room': 'i-organ-room',
     'Panic Room': 'i-panic-room',
+    'Primary Bedroom': 'i-primary-bedroom',
+    'Ritual Room': 'i-ritual-room',
+    'Salon': 'i-salon',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
