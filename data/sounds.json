@@ -1441,5 +1441,44 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/musical-lucasgonze-deathvalleywaltz-1-107573/",
     "date_downloaded": "2026-08-12"
+  },
+  {
+    "id": "room-secret-staircase",
+    "title": "climbing the stairs",
+    "category": "room",
+    "tag": "Secret Staircase",
+    "file": "assets/audio/sfx/rooms/secret_staircase.mp3",
+    "source": "Pixabay",
+    "artist": "Reikun (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/household-climbing-the-stairs-74819/",
+    "date_downloaded": "2026-08-12"
+  },
+  {
+    "id": "room-soundproofed-room",
+    "title": "muffled angry screaming",
+    "category": "room",
+    "tag": "Soundproofed Room",
+    "file": "assets/audio/sfx/rooms/soundproofed_room.mp3",
+    "source": "Pixabay",
+    "artist": "Reitanna (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/people-muffled-angry-screaming-82699/",
+    "date_downloaded": "2026-08-12"
+  },
+  {
+    "id": "room-specimen-room",
+    "title": "Opening a jar",
+    "category": "room",
+    "tag": "Specimen Room",
+    "file": "assets/audio/sfx/rooms/specimen_room.mp3",
+    "source": "Pixabay",
+    "artist": "13GPanska_Gorbusinova_Anna (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-opening-a-jar-80749/",
+    "date_downloaded": "2026-08-12"
   }
 ]
