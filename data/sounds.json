@@ -1285,5 +1285,44 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/film-special-effects-r2d2-laboratory-sf-84779/",
     "date_downloaded": "2026-08-12"
+  },
+  {
+    "id": "room-larder",
+    "title": "Sound of glass jars",
+    "category": "room",
+    "tag": "Larder",
+    "file": "assets/audio/sfx/rooms/larder.mp3",
+    "source": "Pixabay",
+    "artist": "spinopel",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-sound-of-glass-jars-345739/",
+    "date_downloaded": "2026-08-12"
+  },
+  {
+    "id": "room-laundry-chute",
+    "title": "052174_trash chute.WAV",
+    "category": "room",
+    "tag": "Laundry Chute",
+    "file": "assets/audio/sfx/rooms/laundry_chute.mp3",
+    "source": "Pixabay",
+    "artist": "Freesound Community",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-052174-trash-chutewav-92357/",
+    "date_downloaded": "2026-08-12"
+  },
+  {
+    "id": "room-library",
+    "title": "Flipping book",
+    "category": "room",
+    "tag": "Library",
+    "file": "assets/audio/sfx/rooms/library.mp3",
+    "source": "Pixabay",
+    "artist": "Zyanya (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-flipping-book-101929/",
+    "date_downloaded": "2026-08-12"
   }
 ]
