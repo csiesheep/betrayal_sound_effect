@@ -1480,5 +1480,44 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/film-special-effects-opening-a-jar-80749/",
     "date_downloaded": "2026-08-12"
+  },
+  {
+    "id": "room-statuary-corridor",
+    "title": "Push Stone Statue 1",
+    "category": "room",
+    "tag": "Statuary Corridor",
+    "file": "assets/audio/sfx/rooms/statuary_corridor.mp3",
+    "source": "Pixabay",
+    "artist": "floraphonic",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-push-stone-statue-1-188171/",
+    "date_downloaded": "2026-08-13"
+  },
+  {
+    "id": "room-tower",
+    "title": "Harsh Wind",
+    "category": "room",
+    "tag": "Tower",
+    "file": "assets/audio/sfx/rooms/tower.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/nature-harsh-wind-515272/",
+    "date_downloaded": "2026-08-13"
+  },
+  {
+    "id": "room-underground-cavern",
+    "title": "Droplets in a Cave",
+    "category": "room",
+    "tag": "Underground Cavern",
+    "file": "assets/audio/sfx/rooms/underground_cavern.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/nature-droplets-in-a-cave-482871/",
+    "date_downloaded": "2026-08-13"
   }
 ]
