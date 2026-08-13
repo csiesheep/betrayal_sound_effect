@@ -59,7 +59,7 @@ export default {
       });
     }
 
-    if (url.pathname === PREFIX) {
+    if (url.pathname === "/" || url.pathname === PREFIX) {
       url.pathname = PREFIX + "/";
       return Response.redirect(url.toString(), 301);
     }
