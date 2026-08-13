@@ -1402,5 +1402,44 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/film-special-effects-heavy-door-unlocking-515258/",
     "date_downloaded": "2026-08-12"
+  },
+  {
+    "id": "room-primary-bedroom",
+    "title": "Bedroom Door Opens 1_heavier handle",
+    "category": "room",
+    "tag": "Primary Bedroom",
+    "file": "assets/audio/sfx/rooms/primary_bedroom.mp3",
+    "source": "Pixabay",
+    "artist": "tlcolbe (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/household-bedroom-door-opens-1-heavier-handle-40998/",
+    "date_downloaded": "2026-08-12"
+  },
+  {
+    "id": "room-ritual-room",
+    "title": "Low chant",
+    "category": "room",
+    "tag": "Ritual Room",
+    "file": "assets/audio/sfx/rooms/ritual_room.mp3",
+    "source": "Pixabay",
+    "artist": "adharca (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/musical-low-chant-83889/",
+    "date_downloaded": "2026-08-12"
+  },
+  {
+    "id": "room-salon",
+    "title": "LucasGonze-DeathValleyWaltz-1",
+    "category": "room",
+    "tag": "Salon",
+    "file": "assets/audio/sfx/rooms/salon.mp3",
+    "source": "Pixabay",
+    "artist": "lucasgonze (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/musical-lucasgonze-deathvalleywaltz-1-107573/",
+    "date_downloaded": "2026-08-12"
   }
 ]
