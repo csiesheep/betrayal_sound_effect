@@ -117,6 +117,9 @@
     'Primary Bedroom': 'i-primary-bedroom',
     'Ritual Room': 'i-ritual-room',
     'Salon': 'i-salon',
+    'Secret Staircase': 'i-secret-staircase',
+    'Soundproofed Room': 'i-soundproofed-room',
+    'Specimen Room': 'i-specimen-room',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
