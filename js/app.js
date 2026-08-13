@@ -102,6 +102,9 @@
     'Guest Quarters': 'i-guest-quarters',
     'Gymnasium': 'i-gymnasium',
     'Hallway': 'i-hallway',
+    'Junk Room': 'i-junk-room',
+    'Kitchen': 'i-kitchen',
+    'Laboratory': 'i-laboratory',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
