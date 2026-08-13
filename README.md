@@ -18,4 +18,4 @@ assets/audio/music/     → looping background tracks
 
 ## Status
 
-Prototype: hello-world page only. Hosted target: `csiesheep.com/games/sound_effect/`.
+Live at `https://games.csiesheep.com/betrayal_sound_board/`.
