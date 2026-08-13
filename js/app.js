@@ -99,6 +99,18 @@
     'Game Room': 'i-game-room',
     'Graveyard': 'i-graveyard',
     'Ground Floor Staircase': 'i-ground-floor-staircase',
+    'Guest Quarters': 'i-guest-quarters',
+    'Gymnasium': 'i-gymnasium',
+    'Hallway': 'i-hallway',
+    'Junk Room': 'i-junk-room',
+    'Kitchen': 'i-kitchen',
+    'Laboratory': 'i-laboratory',
+    'Larder': 'i-larder',
+    'Laundry Chute': 'i-laundry-chute',
+    'Library': 'i-library',
+    'Mystic Elevator': 'i-mystic-elevator',
+    'Nursery': 'i-nursery',
+    'Observatory': 'i-observatory',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
