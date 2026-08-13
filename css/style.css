@@ -775,6 +775,11 @@ h1 {
   border-top: 1px solid var(--line);
 }
 
+.ad-slot {
+  margin: 20px 0;
+  overflow: hidden;
+}
+
 .credits-list {
   list-style: none;
   margin: 14px 0 0;
