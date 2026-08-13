@@ -120,6 +120,9 @@
     'Secret Staircase': 'i-secret-staircase',
     'Soundproofed Room': 'i-soundproofed-room',
     'Specimen Room': 'i-specimen-room',
+    'Statuary Corridor': 'i-statuary-corridor',
+    'Tower': 'i-tower',
+    'Underground Cavern': 'i-underground-cavern',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
