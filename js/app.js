@@ -108,6 +108,9 @@
     'Larder': 'i-larder',
     'Laundry Chute': 'i-laundry-chute',
     'Library': 'i-library',
+    'Mystic Elevator': 'i-mystic-elevator',
+    'Nursery': 'i-nursery',
+    'Observatory': 'i-observatory',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
