@@ -99,6 +99,9 @@
     'Game Room': 'i-game-room',
     'Graveyard': 'i-graveyard',
     'Ground Floor Staircase': 'i-ground-floor-staircase',
+    'Guest Quarters': 'i-guest-quarters',
+    'Gymnasium': 'i-gymnasium',
+    'Hallway': 'i-hallway',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
