@@ -111,6 +111,9 @@
     'Mystic Elevator': 'i-mystic-elevator',
     'Nursery': 'i-nursery',
     'Observatory': 'i-observatory',
+    'Operating Theatre': 'i-operating-theatre',
+    'Organ Room': 'i-organ-room',
+    'Panic Room': 'i-panic-room',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
