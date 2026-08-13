@@ -105,6 +105,9 @@
     'Junk Room': 'i-junk-room',
     'Kitchen': 'i-kitchen',
     'Laboratory': 'i-laboratory',
+    'Larder': 'i-larder',
+    'Laundry Chute': 'i-laundry-chute',
+    'Library': 'i-library',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
