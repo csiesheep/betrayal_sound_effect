@@ -8,9 +8,10 @@ const ADS_TXT = "google.com, pub-3643717374169188, DIRECT, f08c47fec0942fa0\n";
 // robots.txt and sitemap.xml must live at the host root (crawlers only
 // honour robots.txt at the domain root), which is outside the app prefix.
 const CANONICAL = "https://games.csiesheep.com" + PREFIX + "/";
+// Cloudflare's Managed robots.txt is prepended to this response and already
+// supplies the crawl rules (User-agent groups + Content-Signal). We only add
+// the Sitemap directive so we don't emit a duplicate "User-agent: *" group.
 const ROBOTS_TXT =
-  "User-agent: *\n" +
-  "Allow: /\n\n" +
   "Sitemap: https://games.csiesheep.com/sitemap.xml\n";
 const SITEMAP_XML =
   '<?xml version="1.0" encoding="UTF-8"?>\n' +
