@@ -3,7 +3,7 @@
 Fan-made sound & music board for *Betrayal at House on the Hill* (3rd Edition).
 Static site (HTML/CSS/vanilla JS + Web Audio API), no backend.
 
-See the full implementation plan: [design doc](https://github.com/csiesheep/obsidian/blob/main/Projects/betrayal_sound_effect/design.md)
+See the full implementation plan: [design doc](https://github.com/csiesheep/obsidian/blob/main/Projects/betrayal%20sound%20board/design.md)
 
 ## Structure
 
