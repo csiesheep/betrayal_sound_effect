@@ -1207,5 +1207,44 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/household-creaking-wooden-floor-footsteps-410804/",
     "date_downloaded": "2026-08-11"
+  },
+  {
+    "id": "room-guest-quarters",
+    "title": "25. cama rechinando Bed creaking",
+    "category": "room",
+    "tag": "Guest Quarters",
+    "file": "assets/audio/sfx/rooms/guest_quarters.mp3",
+    "source": "Pixabay",
+    "artist": "cabusta9 (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/household-25-cama-rechinando-bed-creaking-46944/",
+    "date_downloaded": "2026-08-12"
+  },
+  {
+    "id": "room-gymnasium",
+    "title": "Referee whistle blow, gymnasium",
+    "category": "room",
+    "tag": "Gymnasium",
+    "file": "assets/audio/sfx/rooms/gymnasium.mp3",
+    "source": "Pixabay",
+    "artist": "SpliceSound (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-referee-whistle-blow-gymnasium-6320/",
+    "date_downloaded": "2026-08-12"
+  },
+  {
+    "id": "room-hallway",
+    "title": "Footsteps in Hallway",
+    "category": "room",
+    "tag": "Hallway",
+    "file": "assets/audio/sfx/rooms/hallway.mp3",
+    "source": "Pixabay",
+    "artist": "hmoosher (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-footsteps-in-hallway-80436/",
+    "date_downloaded": "2026-08-12"
   }
 ]
