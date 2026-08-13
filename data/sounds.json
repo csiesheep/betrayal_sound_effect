@@ -1363,5 +1363,44 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/city-ancient-mechanical-gears-487670/",
     "date_downloaded": "2026-08-12"
+  },
+  {
+    "id": "room-operating-theatre",
+    "title": "Scalpel",
+    "category": "room",
+    "tag": "Operating Theatre",
+    "file": "assets/audio/sfx/rooms/operating_theatre.mp3",
+    "source": "Pixabay",
+    "artist": "Andres_18 (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-scalpel-37442/",
+    "date_downloaded": "2026-08-12"
+  },
+  {
+    "id": "room-organ-room",
+    "title": "ORGAN LOOP",
+    "category": "room",
+    "tag": "Organ Room",
+    "file": "assets/audio/sfx/rooms/organ_room.mp3",
+    "source": "Pixabay",
+    "artist": "zgump (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/musical-organ-loop-91761/",
+    "date_downloaded": "2026-08-12"
+  },
+  {
+    "id": "room-panic-room",
+    "title": "Heavy Door Unlocking",
+    "category": "room",
+    "tag": "Panic Room",
+    "file": "assets/audio/sfx/rooms/panic_room.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-heavy-door-unlocking-515258/",
+    "date_downloaded": "2026-08-12"
   }
 ]
