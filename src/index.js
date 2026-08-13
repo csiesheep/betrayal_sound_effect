@@ -1,4 +1,4 @@
-const PREFIX = "/betrayal_sound_effect";
+const PREFIX = "/betrayal_sound_board";
 
 // Google requires ads.txt at the domain root (not under any path prefix)
 // to authorize this site to serve AdSense ads at all - without it, ad
