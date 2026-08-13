@@ -1324,5 +1324,44 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/film-special-effects-flipping-book-101929/",
     "date_downloaded": "2026-08-12"
+  },
+  {
+    "id": "room-mystic-elevator",
+    "title": "Elevator Sound",
+    "category": "room",
+    "tag": "Mystic Elevator",
+    "file": "assets/audio/sfx/rooms/mystic_elevator.mp3",
+    "source": "Pixabay",
+    "artist": "DigPro120 (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-elevator-sound-99315/",
+    "date_downloaded": "2026-08-12"
+  },
+  {
+    "id": "room-nursery",
+    "title": "mary had a little lamb old radio feel",
+    "category": "room",
+    "tag": "Nursery",
+    "file": "assets/audio/sfx/rooms/nursery.mp3",
+    "source": "Pixabay",
+    "artist": "martian (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/horror-mary-had-a-little-lamb-old-radio-feel-91206/",
+    "date_downloaded": "2026-08-12"
+  },
+  {
+    "id": "room-observatory",
+    "title": "Ancient Mechanical Gears",
+    "category": "room",
+    "tag": "Observatory",
+    "file": "assets/audio/sfx/rooms/observatory.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/city-ancient-mechanical-gears-487670/",
+    "date_downloaded": "2026-08-12"
   }
 ]
