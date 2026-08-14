@@ -1766,5 +1766,44 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/film-special-effects-wasp-wings-2-101131/",
     "date_downloaded": "2026-08-14"
+  },
+  {
+    "id": "monster-grim-reaper",
+    "title": "scythe sharpening 2",
+    "category": "monster",
+    "tag": "Grim Reaper",
+    "file": "assets/audio/sfx/monsters/grim_reaper.mp3",
+    "source": "Pixabay",
+    "artist": "ramas26 (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-scythe-sharpening-2-89508/",
+    "date_downloaded": "2026-08-14"
+  },
+  {
+    "id": "monster-head-of-the-house",
+    "title": "Evil Laugh",
+    "category": "monster",
+    "tag": "Head of the House",
+    "file": "assets/audio/sfx/monsters/head_of_the_house.mp3",
+    "source": "Pixabay",
+    "artist": "supersound23 (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/people-evil-laugh-49831/",
+    "date_downloaded": "2026-08-14"
+  },
+  {
+    "id": "monster-hellhound",
+    "title": "Angry Dog",
+    "category": "monster",
+    "tag": "Hellhound",
+    "file": "assets/audio/sfx/monsters/hellhound.mp3",
+    "source": "Pixabay",
+    "artist": "CmdRobot (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/nature-angry-dog-14473/",
+    "date_downloaded": "2026-08-14"
   }
 ]
