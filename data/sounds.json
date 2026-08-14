@@ -1571,5 +1571,44 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/people-man-shivering-with-cold-1-288113/",
     "date_downloaded": "2026-08-13"
+  },
+  {
+    "id": "monster-bakeneko",
+    "title": "Cat Growl into Hiss",
+    "category": "monster",
+    "tag": "Bakeneko",
+    "file": "assets/audio/sfx/monsters/bakeneko.mp3",
+    "source": "Pixabay",
+    "artist": "Wrenasmir (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/nature-cat-growl-into-hiss-99813/",
+    "date_downloaded": "2026-08-13"
+  },
+  {
+    "id": "monster-banshee",
+    "title": "Banshee screaming sound effect",
+    "category": "monster",
+    "tag": "Banshee",
+    "file": "assets/audio/sfx/monsters/banshee.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/horror-banshee-screaming-sound-effect-312864/",
+    "date_downloaded": "2026-08-13"
+  },
+  {
+    "id": "monster-bat-swarm",
+    "title": "Bat Chirping Type 1",
+    "category": "monster",
+    "tag": "Bat Swarm",
+    "file": "assets/audio/sfx/monsters/bat_swarm.mp3",
+    "source": "Pixabay",
+    "artist": "The-Vampires-Monster",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/nature-bat-chirping-type-1-354288/",
+    "date_downloaded": "2026-08-13"
   }
 ]
