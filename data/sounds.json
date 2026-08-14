@@ -1649,5 +1649,83 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/film-special-effects-dark-choir-01-87395/",
     "date_downloaded": "2026-08-13"
+  },
+  {
+    "id": "monster-demon",
+    "title": "Demonic Spirit Voice - Sinister Laughter",
+    "category": "monster",
+    "tag": "Demon",
+    "file": "assets/audio/sfx/monsters/demon.mp3",
+    "source": "Pixabay",
+    "artist": "PhatPhrogStudio",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/horror-demonic-spirit-voice-sinister-laughter-487002/",
+    "date_downloaded": "2026-08-14"
+  },
+  {
+    "id": "monster-doppelganger",
+    "title": "Echo Voices",
+    "category": "monster",
+    "tag": "Doppelganger",
+    "file": "assets/audio/sfx/monsters/doppelganger.mp3",
+    "source": "Pixabay",
+    "artist": "Alex_Jauk",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-echo-voices-227160/",
+    "date_downloaded": "2026-08-14"
+  },
+  {
+    "id": "monster-frankensteins-monster-type-creation",
+    "title": "Shooting Sparks Electricity 2",
+    "category": "monster",
+    "tag": "Frankenstein's-Monster-type Creation",
+    "file": "assets/audio/sfx/monsters/frankensteins_monster_type_creation.mp3",
+    "source": "Pixabay",
+    "artist": "floraphonic",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-shooting-sparks-electricity-2-204983/",
+    "date_downloaded": "2026-08-14"
+  },
+  {
+    "id": "monster-gargoyle",
+    "title": "052256_Cracking Earthquake (cracking soil, cracking stone)",
+    "category": "monster",
+    "tag": "Gargoyle",
+    "file": "assets/audio/sfx/monsters/gargoyle.mp3",
+    "source": "Pixabay",
+    "artist": "Freesound Community",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/nature-052256-cracking-earthquake-cracking-soil-cracking-stone-86770/",
+    "date_downloaded": "2026-08-14"
+  },
+  {
+    "id": "monster-ghost-shark",
+    "title": "Baleines",
+    "category": "monster",
+    "tag": "Ghost Shark",
+    "file": "assets/audio/sfx/monsters/ghost_shark.mp3",
+    "source": "Pixabay",
+    "artist": "davidou (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-baleines-91673/",
+    "date_downloaded": "2026-08-14"
+  },
+  {
+    "id": "monster-ghoul",
+    "title": "Ghoul Growling",
+    "category": "monster",
+    "tag": "Ghoul",
+    "file": "assets/audio/sfx/monsters/ghoul.mp3",
+    "source": "Pixabay",
+    "artist": "Alex_Jauk",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/horror-ghoul-growling-210632/",
+    "date_downloaded": "2026-08-14"
   }
 ]
