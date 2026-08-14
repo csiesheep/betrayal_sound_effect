@@ -1519,5 +1519,57 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/nature-droplets-in-a-cave-482871/",
     "date_downloaded": "2026-08-13"
+  },
+  {
+    "id": "room-underground-lake",
+    "title": "Emerging from the water",
+    "category": "room",
+    "tag": "Underground Lake",
+    "file": "assets/audio/sfx/rooms/underground_lake.mp3",
+    "source": "Pixabay",
+    "artist": "spinopel",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/nature-emerging-from-the-water-336392/",
+    "date_downloaded": "2026-08-13"
+  },
+  {
+    "id": "room-upper-landing",
+    "title": "Running on wooden floorboards",
+    "category": "room",
+    "tag": "Upper Landing",
+    "file": "assets/audio/sfx/rooms/upper_landing.mp3",
+    "source": "Pixabay",
+    "artist": "775noise (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/household-running-on-wooden-floorboards-42532/",
+    "date_downloaded": "2026-08-13"
+  },
+  {
+    "id": "room-vault",
+    "title": "Closing large metal door-001",
+    "category": "room",
+    "tag": "Vault",
+    "file": "assets/audio/sfx/rooms/vault.mp3",
+    "source": "Pixabay",
+    "artist": "AudioPapkin",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-closing-large-metal-door-001-326819/",
+    "date_downloaded": "2026-08-13"
+  },
+  {
+    "id": "room-winter-bedroom",
+    "title": "Man Shivering With Cold_1",
+    "category": "room",
+    "tag": "Winter Bedroom",
+    "file": "assets/audio/sfx/rooms/winter_bedroom.mp3",
+    "source": "Pixabay",
+    "artist": "DJARTMUSIC",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/people-man-shivering-with-cold-1-288113/",
+    "date_downloaded": "2026-08-13"
   }
 ]
