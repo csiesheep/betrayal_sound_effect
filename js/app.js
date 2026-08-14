@@ -13,6 +13,8 @@
     'Bakeneko': 'i-bakeneko',
     'Banshee': 'i-banshee',
     'Bat Swarm': 'i-bat-swarm',
+    'Chainsaw Maniac': 'i-chainsaw-maniac',
+    'Chupacabra': 'i-chupacabra',
     'Crossbow': 'i-crossbow',
     'Dynamite': 'i-dynamite',
     'Gun': 'i-gun',
