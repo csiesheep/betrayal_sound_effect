@@ -111,6 +111,22 @@
     'Mystic Elevator': 'i-mystic-elevator',
     'Nursery': 'i-nursery',
     'Observatory': 'i-observatory',
+    'Operating Theatre': 'i-operating-theatre',
+    'Organ Room': 'i-organ-room',
+    'Panic Room': 'i-panic-room',
+    'Primary Bedroom': 'i-primary-bedroom',
+    'Ritual Room': 'i-ritual-room',
+    'Salon': 'i-salon',
+    'Secret Staircase': 'i-secret-staircase',
+    'Soundproofed Room': 'i-soundproofed-room',
+    'Specimen Room': 'i-specimen-room',
+    'Statuary Corridor': 'i-statuary-corridor',
+    'Tower': 'i-tower',
+    'Underground Cavern': 'i-underground-cavern',
+    'Underground Lake': 'i-underground-lake',
+    'Upper Landing': 'i-upper-landing',
+    'Vault': 'i-vault',
+    'Winter Bedroom': 'i-winter-bedroom',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
