@@ -123,6 +123,10 @@
     'Statuary Corridor': 'i-statuary-corridor',
     'Tower': 'i-tower',
     'Underground Cavern': 'i-underground-cavern',
+    'Underground Lake': 'i-underground-lake',
+    'Upper Landing': 'i-upper-landing',
+    'Vault': 'i-vault',
+    'Winter Bedroom': 'i-winter-bedroom',
   };
 
   const [catalogRes, soundsRes] = await Promise.all([
