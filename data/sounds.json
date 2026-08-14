@@ -1610,5 +1610,31 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/nature-bat-chirping-type-1-354288/",
     "date_downloaded": "2026-08-13"
+  },
+  {
+    "id": "monster-chainsaw-maniac",
+    "title": "chainsaw revving 1",
+    "category": "monster",
+    "tag": "Chainsaw Maniac",
+    "file": "assets/audio/sfx/monsters/chainsaw_maniac.mp3",
+    "source": "Pixabay",
+    "artist": "LazyChillZone",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-chainsaw-revving-1-228352/",
+    "date_downloaded": "2026-08-13"
+  },
+  {
+    "id": "monster-chupacabra",
+    "title": "Growl of the Beast",
+    "category": "monster",
+    "tag": "Chupacabra",
+    "file": "assets/audio/sfx/monsters/chupacabra.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/horror-growl-of-the-beast-504021/",
+    "date_downloaded": "2026-08-13"
   }
 ]
