@@ -15,6 +15,7 @@
     'Bat Swarm': 'i-bat-swarm',
     'Chainsaw Maniac': 'i-chainsaw-maniac',
     'Chupacabra': 'i-chupacabra',
+    'Cultist': 'i-cultist',
     'Crossbow': 'i-crossbow',
     'Dynamite': 'i-dynamite',
     'Gun': 'i-gun',
