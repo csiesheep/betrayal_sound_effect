@@ -1636,5 +1636,18 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/horror-growl-of-the-beast-504021/",
     "date_downloaded": "2026-08-13"
+  },
+  {
+    "id": "monster-cultist",
+    "title": "Dark Choir 01",
+    "category": "monster",
+    "tag": "Cultist",
+    "file": "assets/audio/sfx/monsters/cultist.mp3",
+    "source": "Pixabay",
+    "artist": "Exsomniel (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-dark-choir-01-87395/",
+    "date_downloaded": "2026-08-13"
   }
 ]
