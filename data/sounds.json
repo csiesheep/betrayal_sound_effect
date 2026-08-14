@@ -1727,5 +1727,44 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/horror-ghoul-growling-210632/",
     "date_downloaded": "2026-08-14"
+  },
+  {
+    "id": "monster-giant-hair-monster",
+    "title": "Whip",
+    "category": "monster",
+    "tag": "Giant Hair Monster",
+    "file": "assets/audio/sfx/monsters/giant_hair_monster.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-whip-386179/",
+    "date_downloaded": "2026-08-14"
+  },
+  {
+    "id": "monster-giant-spider",
+    "title": "Giant Spider Walking",
+    "category": "monster",
+    "tag": "Giant Spider",
+    "file": "assets/audio/sfx/monsters/giant_spider.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/nature-giant-spider-walking-504034/",
+    "date_downloaded": "2026-08-14"
+  },
+  {
+    "id": "monster-giant-wasp",
+    "title": "Wasp Wings 2",
+    "category": "monster",
+    "tag": "Giant Wasp",
+    "file": "assets/audio/sfx/monsters/giant_wasp.mp3",
+    "source": "Pixabay",
+    "artist": "Wakerone (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-wasp-wings-2-101131/",
+    "date_downloaded": "2026-08-14"
   }
 ]
