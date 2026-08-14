@@ -18,6 +18,7 @@ const SITEMAP_XML =
   '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
   "  <url>\n" +
   "    <loc>" + CANONICAL + "</loc>\n" +
+  "    <lastmod>2026-08-13</lastmod>\n" +
   "    <changefreq>weekly</changefreq>\n" +
   "    <priority>1.0</priority>\n" +
   "  </url>\n" +

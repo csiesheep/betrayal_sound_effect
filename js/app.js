@@ -272,6 +272,16 @@
     });
   }
 
+  // Deep-link support: /?q=term pre-fills the search on load (also powers
+  // the JSON-LD SearchAction / potential sitelinks search box).
+  if (searchInput) {
+    const q = new URLSearchParams(location.search).get('q');
+    if (q) {
+      searchInput.value = q;
+      if (searchClear) searchClear.hidden = !q;
+    }
+  }
+
   applyFilters();
 })();
 
