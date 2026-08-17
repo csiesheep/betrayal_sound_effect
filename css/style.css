@@ -902,6 +902,32 @@ h1 {
   color: var(--ink);
 }
 
+.site-footer {
+  margin-top: 24px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+}
+
+.site-footer a {
+  color: var(--ink-dim);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.site-footer a:hover,
+.site-footer a:focus-visible {
+  color: var(--gold-bright);
+}
+
+.site-footer-sep {
+  color: var(--ink-dim);
+}
+
 @media (min-width: 640px) {
   .wrap {
     max-width: 760px;
