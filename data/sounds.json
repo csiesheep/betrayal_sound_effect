@@ -1805,5 +1805,44 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/nature-angry-dog-14473/",
     "date_downloaded": "2026-08-14"
+  },
+  {
+    "id": "monster-locust-insect-swarm",
+    "title": "Flies Buzzing",
+    "category": "monster",
+    "tag": "Locust/Insect Swarm",
+    "file": "assets/audio/sfx/monsters/locust_insect_swarm.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/nature-flies-buzzing-494311/",
+    "date_downloaded": "2026-08-16"
+  },
+  {
+    "id": "monster-masked-slasher",
+    "title": "Efecto Foley, Cuchillo y carne. Ataque. Slasher.",
+    "category": "monster",
+    "tag": "Masked Slasher",
+    "file": "assets/audio/sfx/monsters/masked_slasher.mp3",
+    "source": "Pixabay",
+    "artist": "CosasVascas",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/efecto-foley-cuchillo-y-carne-ataque-slasher-50002/",
+    "date_downloaded": "2026-08-16"
+  },
+  {
+    "id": "monster-mummy",
+    "title": "Dry Leaves Rustling",
+    "category": "monster",
+    "tag": "Mummy",
+    "file": "assets/audio/sfx/monsters/mummy.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/nature-dry-leaves-rustling-482874/",
+    "date_downloaded": "2026-08-16"
   }
 ]
