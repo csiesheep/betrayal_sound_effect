@@ -1883,5 +1883,44 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/horror-poltergeist-341147/",
     "date_downloaded": "2026-08-16"
+  },
+  {
+    "id": "monster-possessed-doll",
+    "title": "Cute Child Giggle",
+    "category": "monster",
+    "tag": "Possessed Doll",
+    "file": "assets/audio/sfx/monsters/possessed_doll.mp3",
+    "source": "Pixabay",
+    "artist": "Virtual_Vibes",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/people-cute-child-giggle-383731/",
+    "date_downloaded": "2026-08-16"
+  },
+  {
+    "id": "monster-rat-swarm",
+    "title": "Rat Squeaking - Sound Effect(HD)",
+    "category": "monster",
+    "tag": "Rat Swarm",
+    "file": "assets/audio/sfx/monsters/rat_swarm.mp3",
+    "source": "Pixabay",
+    "artist": "u_3yocsblk00",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-rat-squeaking-sound-effecthd-570216/",
+    "date_downloaded": "2026-08-16"
+  },
+  {
+    "id": "monster-revenant",
+    "title": "Deep Monster Growl",
+    "category": "monster",
+    "tag": "Revenant",
+    "file": "assets/audio/sfx/monsters/revenant.mp3",
+    "source": "Pixabay",
+    "artist": "uagadugu (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/horror-deep-monster-growl-86780/",
+    "date_downloaded": "2026-08-16"
   }
 ]
