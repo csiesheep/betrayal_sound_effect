@@ -2000,5 +2000,44 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/people-creepy-girl-haunting-hum-sound-effect-555986/",
     "date_downloaded": "2026-08-17"
+  },
+  {
+    "id": "monster-vampire",
+    "title": "Horror Scary Vampire Hiss Sigh Breathe Hiss 03",
+    "category": "monster",
+    "tag": "Vampire",
+    "file": "assets/audio/sfx/monsters/vampire.mp3",
+    "source": "Pixabay",
+    "artist": "imagne_impossible",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/horror-horror-scary-vampire-hiss-sigh-breathe-hiss-03-256999/",
+    "date_downloaded": "2026-08-17"
+  },
+  {
+    "id": "monster-werewolf",
+    "title": "Spooky Wolf Howl",
+    "category": "monster",
+    "tag": "Werewolf",
+    "file": "assets/audio/sfx/monsters/werewolf.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/horror-spooky-wolf-howl-410547/",
+    "date_downloaded": "2026-08-17"
+  },
+  {
+    "id": "monster-witch",
+    "title": "Witchy Cackle",
+    "category": "monster",
+    "tag": "Witch",
+    "file": "assets/audio/sfx/monsters/witch.mp3",
+    "source": "Pixabay",
+    "artist": "Shut_Up_Ghost",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/horror-witchy-cackle-140925/",
+    "date_downloaded": "2026-08-17"
   }
 ]
