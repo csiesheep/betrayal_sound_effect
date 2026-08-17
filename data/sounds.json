@@ -2039,5 +2039,18 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/horror-witchy-cackle-140925/",
     "date_downloaded": "2026-08-17"
+  },
+  {
+    "id": "monster-yeti-bigfoot",
+    "title": "Gorillaschrei",
+    "category": "monster",
+    "tag": "Yeti/Bigfoot-type",
+    "file": "assets/audio/sfx/monsters/yeti_bigfoot.mp3",
+    "source": "Pixabay",
+    "artist": "J0ck0 (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/horror-gorillaschrei-101222/",
+    "date_downloaded": "2026-08-17"
   }
 ]
