@@ -46,6 +46,7 @@
     'Vampire': 'i-vampire',
     'Werewolf': 'i-werewolf',
     'Witch': 'i-witch',
+    'Yeti/Bigfoot-type': 'i-yeti-bigfoot',
     'Crossbow': 'i-crossbow',
     'Dynamite': 'i-dynamite',
     'Gun': 'i-gun',
