@@ -1961,5 +1961,44 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/film-special-effects-beeping-robot-or-machine-102595/",
     "date_downloaded": "2026-08-17"
+  },
+  {
+    "id": "monster-shadow-figure",
+    "title": "Shadows",
+    "category": "monster",
+    "tag": "Shadow Figure",
+    "file": "assets/audio/sfx/monsters/shadow_figure.mp3",
+    "source": "Pixabay",
+    "artist": "carmsie (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/people-shadows-84669/",
+    "date_downloaded": "2026-08-17"
+  },
+  {
+    "id": "monster-skeleton",
+    "title": "Bones 2",
+    "category": "monster",
+    "tag": "Skeleton",
+    "file": "assets/audio/sfx/monsters/skeleton.mp3",
+    "source": "Pixabay",
+    "artist": "AntumDeluge (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-bones-2-88481/",
+    "date_downloaded": "2026-08-17"
+  },
+  {
+    "id": "monster-spirit",
+    "title": "Creepy Girl Haunting Hum Sound Effect",
+    "category": "monster",
+    "tag": "Spirit",
+    "file": "assets/audio/sfx/monsters/spirit.mp3",
+    "source": "Pixabay",
+    "artist": "AlesiaDavina",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/people-creepy-girl-haunting-hum-sound-effect-555986/",
+    "date_downloaded": "2026-08-17"
   }
 ]
