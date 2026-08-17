@@ -1922,5 +1922,44 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/horror-deep-monster-growl-86780/",
     "date_downloaded": "2026-08-16"
+  },
+  {
+    "id": "monster-scarecrow",
+    "title": "Creepy Crow Caw",
+    "category": "monster",
+    "tag": "Scarecrow",
+    "file": "assets/audio/sfx/monsters/scarecrow.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/nature-creepy-crow-caw-322991/",
+    "date_downloaded": "2026-08-17"
+  },
+  {
+    "id": "monster-sea-monster-kraken",
+    "title": "Sea Monster Screaming Loudly",
+    "category": "monster",
+    "tag": "Sea Monster/Kraken",
+    "file": "assets/audio/sfx/monsters/sea_monster_kraken.mp3",
+    "source": "Pixabay",
+    "artist": "u_kse9ncnirq",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/horror-sea-monster-screaming-loudly-414878/",
+    "date_downloaded": "2026-08-17"
+  },
+  {
+    "id": "monster-security-robot",
+    "title": "Beeping Robot or Machine",
+    "category": "monster",
+    "tag": "Security Robot",
+    "file": "assets/audio/sfx/monsters/security_robot.mp3",
+    "source": "Pixabay",
+    "artist": "Jofae (freesound_community)",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-beeping-robot-or-machine-102595/",
+    "date_downloaded": "2026-08-17"
   }
 ]
