@@ -1844,5 +1844,44 @@
     "attribution_required": false,
     "source_url": "https://pixabay.com/sound-effects/nature-dry-leaves-rustling-482874/",
     "date_downloaded": "2026-08-16"
+  },
+  {
+    "id": "monster-killer-clown",
+    "title": "Sinister Laugh",
+    "category": "monster",
+    "tag": "Killer Clown",
+    "file": "assets/audio/sfx/monsters/killer_clown.mp3",
+    "source": "Pixabay",
+    "artist": "DRAGON-STUDIO",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/film-special-effects-sinister-laugh-431478/",
+    "date_downloaded": "2026-08-16"
+  },
+  {
+    "id": "monster-plague-doctor",
+    "title": "Breathing through the mouth",
+    "category": "monster",
+    "tag": "Plague Doctor",
+    "file": "assets/audio/sfx/monsters/plague_doctor.mp3",
+    "source": "Pixabay",
+    "artist": "spinopel",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/people-breathing-through-the-mouth-429800/",
+    "date_downloaded": "2026-08-16"
+  },
+  {
+    "id": "monster-poltergeist",
+    "title": "Poltergeist",
+    "category": "monster",
+    "tag": "Poltergeist",
+    "file": "assets/audio/sfx/monsters/poltergeist.mp3",
+    "source": "Pixabay",
+    "artist": "SoundReality",
+    "license": "Pixabay Content License",
+    "attribution_required": false,
+    "source_url": "https://pixabay.com/sound-effects/horror-poltergeist-341147/",
+    "date_downloaded": "2026-08-16"
   }
 ]
