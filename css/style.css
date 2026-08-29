@@ -867,6 +867,17 @@ h1 {
   margin: 8px 0 0;
 }
 
+.faq details p a {
+  color: var(--ink-dim);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.faq details p a:hover,
+.faq details p a:focus-visible {
+  color: var(--gold-bright);
+}
+
 .ad-slot {
   margin: 20px 0;
   overflow: hidden;
